@@ -1,24 +1,22 @@
-.header {
-  background: $off-black;
-  color: white;
-  margin-bottom: $xl-size;
-  padding: $m-size 0;
+header {
+  
+
 }
 
-.header__title {
-  font-size: $l-size;
-  margin: 0;
+header nav {
+   margin-right: 20px;
+     display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
 }
 
-.header__subtitle {
-  color: $off-white;
-  font-size: $m-size;
-  font-weight: 500;
-  margin: 0;
+header nav a {
+   text-decoration: none;
+   margin: -50px 10px;
 }
 
-@media (max-width: $desktop-breakpoint) {
-  .header{
-    margin-bottom: $m-size;
-  }
+@media screen and (max-width: 920px) {
+   header nav {
+      justify-content: space-around;
+   }
 }

@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import IndecisionApp from './components/IndecisionApp';
+import NordicRouter from './routers/NordicRouter';
 import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 
 
 
 
-ReactDOM.render(<IndecisionApp />, document.getElementById('app'));
+ReactDOM.render(<NordicRouter />, document.getElementById('app'));

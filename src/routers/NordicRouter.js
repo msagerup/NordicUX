@@ -1,15 +1,16 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch, Link, NavLink } from 'react-router-dom';
-import Header from '../components/Header';
+import Home from '../components/Home';
 import NotFound from '../components/NotFound';
 import Contact from '../components/Contact';
+import Hamburger from '../components/Hamburger';
 
 const NordicRouter = () => (
    <BrowserRouter>
       <div>
-      <Header />
+      <Hamburger />
          <Switch>
-            <Route path="/" component ={ Contact } exact={ true } />
+            <Route path="/" component ={ Home } exact={ true } />
             <Route path="/contact" component = { Contact } />
             <Route component ={ NotFound } />
          </Switch>

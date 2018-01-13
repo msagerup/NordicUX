@@ -1,4 +1,6 @@
-* {
+*,
+*:after,
+*::before {
    box-sizing: border-box;
 }
 
@@ -8,7 +10,13 @@ html {
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: $m-size;
+  background: #04a466;
 }
+
+.container {
+   padding: 80px;
+}
+
 a,
 button {
 		cursor: pointer;

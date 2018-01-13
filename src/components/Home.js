@@ -4,10 +4,9 @@ import { NavLink } from 'react-router-dom';
 
 const Home = () => (
   <div id="outer-container">
-  <Menu pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } />
-  <main id="page-wrap">
-    THIS IS THE INDEX
-  </main>
+  
+    THIS IS THE INDEXss
+  
 </div>
 );
 

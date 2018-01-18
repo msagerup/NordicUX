@@ -5,7 +5,7 @@ const Header = () => (
    <header>
       <h2>Nordic UX</h2>
       <nav>
-         <NavLink to="/" exact = { true }>Home</NavLink>
+         <NavLink to="/" exact = { true }>HEADER</NavLink>
          <NavLink to="/order">Order your website</NavLink>
          <NavLink to="/pricing">Pricing</NavLink>
          <NavLink to="/contact">Contact</NavLink>

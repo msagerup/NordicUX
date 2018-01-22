@@ -1,13 +1,13 @@
 import React from 'react';
 import fontawesome from '@fortawesome/fontawesome';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import faAngleDoubleDown from '@fortawesome/fontawesome-free-solid/faAngleDoubleDown';
+import faBars from '@fortawesome/fontawesome-free-solid/faBars';
 
-class ArrowDown extends React.Component {
+class Menu extends React.Component {
    render () {
       return (
          <div>
-            <FontAwesomeIcon icon={faAngleDoubleDown} size="lg" />
+            <FontAwesomeIcon icon={faBars} size="lg" />
          </div>
       );
    }
@@ -15,4 +15,4 @@ class ArrowDown extends React.Component {
    
 
 
-export default ArrowDown;
+export default Menu;

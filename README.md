@@ -5,4 +5,6 @@
 <p>This webpage is beeing build as a traning project but also will work as my professional website to offer web services.</p>
 <p>The goal here is to practise building with React and also making a fully functional website that serves as both a portfolio and as a Web-design agancy business</p>
 
-This website is build with React , animations will be created with React Motion and also GreenSock.
+This website is build with React, CSS Grid and CSS Flexbox. Animations will be created with React Motion and also GreenSock.
+
+Production stage is done with Webpack.

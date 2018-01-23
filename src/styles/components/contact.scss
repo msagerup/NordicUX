@@ -1,0 +1,29 @@
+.contact {
+   font-family: 'Lato';
+   height: 90vh;
+   justify-content: center;
+   color: $darkBlack;
+}
+
+.contact__header hr {
+   width: 25vw;
+}
+
+.contact__header-font {
+   margin-bottom: $l-size;
+   text-transform: uppercase;
+   font-weight: 300;
+   text-align: center;
+}
+
+.contact__body-font {
+   margin: $xl-size 450px 0 450px;
+   text-align: center;
+   font-size: $ms-font;
+   font-weight: 300;
+   line-height: $m-line;
+}
+
+.contact__body-font__bold {
+   font-weight: 400;
+}

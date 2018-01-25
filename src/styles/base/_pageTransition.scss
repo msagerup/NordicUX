@@ -1,0 +1,52 @@
+.PageAppear-appear {
+   opacity: 0.01;
+   
+}
+
+.PageAppear-appear.PageAppear-appear-active {
+   opacity: 1;
+   transition: all 2s ease-out;
+}
+
+.loader {
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   height: 0;
+   animation-name: Loader;
+   animation-duration: 10s;
+   animation-fill-mode: forwards;
+   animation-delay: 5s;
+}
+
+@keyframes Loader{
+   0% {
+      background-color: green;
+      height: 100vh
+   }
+   100% {
+      background-color: yellow;
+      height: 0;
+   }
+}
+
+.loader__subOne {
+   position: relative;
+   bottom: 0;
+   width: 100%;
+   animation-name: Loader_subOne;
+   animation-duration: 5s;
+   animation-fill-mode: forwards;
+   animation-delay: 6s;
+}
+
+@keyframes Loader_subOne {
+   0% {
+      background-color: blue;
+      height: 100vh;
+   }
+   100% {
+      background-color: blue;
+      height: 0%;
+   }
+}

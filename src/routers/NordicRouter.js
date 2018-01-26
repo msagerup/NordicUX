@@ -10,9 +10,7 @@ import Projects from '../components/Projects';
 const NordicRouter = () => (
    <BrowserRouter>
       <div>
-         <div id="home-left-side">
-            <Menu />
-         </div>
+         <Menu />
          <Switch>
             <Route path="/" component ={ Home } exact={ true } />
             <Route path="/contact" component = { Contact } />

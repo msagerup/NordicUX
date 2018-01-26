@@ -6,9 +6,12 @@ import faBars from '@fortawesome/fontawesome-free-solid/faBars';
 class Menu extends React.Component {
    render () {
       return (
-         <div>
-            <FontAwesomeIcon icon={faBars} size="lg" />
-         </div>
+
+         <div id="home-left-side">
+            <div>
+               <FontAwesomeIcon icon={faBars} size="lg" />
+            </div>
+         </div>   
       );
    }
 }

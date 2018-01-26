@@ -13,7 +13,7 @@ class Contact extends React.Component {
         <CSSTransitionGroup
           transitionName = "PageAppear"
           transitionAppear = {true}
-          transitionAppearTimeout = {4000}
+          transitionAppearTimeout = {1000}
           transitionEnter = {false}
           transitionLeave = {false}
           >

@@ -2,7 +2,11 @@ import React from 'react';
 import Typist from 'react-typist';
 
 
-const myCur = {
+
+
+class SubTitle extends React.Component {
+   render () {
+    const myCur = {
     blink: true,
     show: true,
     element: '.',
@@ -10,14 +14,11 @@ const myCur = {
     hideWhenDoneDelay: 20000,
     isDone: false,
   }
-
-class SubTitle extends React.Component {
-   render () {
       return (
          <Typist 
             startDelay = { 1000 }
-            avgTypingDelay = { 60 }
-            stdTypingDelay = { 50 }
+            avgTypingDelay = { 10 }
+            stdTypingDelay = { 80 }
             cursor = { myCur }
             >
                Designing for our pleasure

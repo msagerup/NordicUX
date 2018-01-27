@@ -1,0 +1,110 @@
+//Golden Ratio
+
+
+$golden: 1.618;
+$base: 100%;
+$gld10: $base / $golden;
+$gld9: $base - $gld10;
+$gld8: $gld9 / $golden;
+$gld7: $gld9 - $gld8;
+$gld6: $gld7 / $golden;
+$gld5: $gld7 - $gld6;
+$gld4: $gld5 / $golden;
+$gld3: $gld5 - $gld4;
+$gld2: $gld3 / $golden;
+$gld1: $gld3 - $gld2;
+
+
+
+.golden {
+   display: flex;
+   height: 100vh;
+
+}
+.full {
+   width: $base;
+
+}
+.large {
+   width: $gld10;
+}
+
+.largeTall {
+   height: $gld10;
+}
+
+.xlarge {
+   width: $base - ($gld7 + $gld7);
+}
+.xlLargeTall {
+   height: $base - ($gld6 + $gld6) -2;
+}
+
+.med {
+   width: $gld9;
+}
+.medTall {
+   height: $gld9;
+}
+.small {
+   width: $gld8;
+}
+.smallTall {
+   height: gld8;
+}
+.xsmall {
+   width: $gld7;
+}
+.xsmallTall {
+   height: #gld7;
+}
+.xxsmall {
+   width: $gld6;
+}
+.xxsmallTall {
+   height: $gld6;
+}
+.xxxsmall {
+   width: $gld5;
+}
+
+
+.upper {
+  
+   border-bottom: 0.5px black solid;
+}
+.buttom {
+   background-color: orange;
+   height: 100%;
+}
+
+.left {
+   border-right: .5px black solid;
+}
+.right-side__buttom {
+   display: flex;
+   height: 20%;
+}
+
+.right-side__buttom-left {
+   display: flex;
+   border-bottom: 0.2px solid gray;
+   margin-bottom: 20px;
+}
+
+.right-side__buttom-left__large {
+  border-right: 0.2px solid gray;
+}
+
+
+
+.right-side__buttom-right {
+   border-left: 0.2px solid gray;
+   
+} 
+
+.right-side__buttom-left__med-top {
+   border-bottom: 0.2px solid gray;
+
+}
+

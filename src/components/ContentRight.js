@@ -8,7 +8,7 @@ class ContentRight extends React.Component {
          <div className="med right-side">
             <ContentRightTop />
             <ContentRightBottom />
-      </div>
+         </div>
 
       );
    }

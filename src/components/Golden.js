@@ -5,13 +5,7 @@ import ContentRight from '../components/ContentRight';
 
 class Golden extends React.Component {
 
-     state = {
-      projects: [
-         { name: 'SeaFood Resturant', tech: 'React, Webpack' },
-         { name: 'Clothes Store', tech: 'React, Webpack, Node, SQL'},
-         { name: 'StoreFront', tech: 'CSS Grid'}
-      ]
-   }
+     
    
    render () {
       return (

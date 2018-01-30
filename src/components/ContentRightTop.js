@@ -1,14 +1,32 @@
 import React from 'react';
+import {bindActionCreators} from 'redux';
+import {connect} from 'react-redux';
 
-export default class ContentRightTop extends React.Component {
+ class ContentRightTop extends React.Component {
+   createListImages () {
+      return this.props.projects.map((tech) => {
+         return (
+            <li>{tech.tech}</li>
+            );
+      });
+   }
    render () {
       return (
       
          <div className="upper xlLargeTall">
-            TOP
+           <ul>
+              {this.createListImages()}
+           </ul>
          </div>
 
       );
    }
 }
 
+function mapStateToProps(state) {
+   return {
+      projects: state.projects
+   };
+}
+
+export default connect(mapStateToProps)(ContentRightTop);

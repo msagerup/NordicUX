@@ -1,12 +1,24 @@
 import React from 'react';
-import Person from '../playground/Person';
+import {bindActionCreators} from 'redux';
+import {connect} from 'react-redux';
+
+
 
 class ContentLeft extends React.Component {
-   
+   createListProjects () {
+      return this.props.projects.map((project) => {
+         return (
+            <li key={project.id}>{project.name} : {project.desc}</li>
+            );
+      });
+   }   
    render () {
+
       return (
           <div className="large left">
-            Left
+            <ul>
+              {this.createListProjects()}
+            </ul>
          </div>
 
 
@@ -14,4 +26,10 @@ class ContentLeft extends React.Component {
    }
 }
 
-export default ContentLeft;
+function mapStateToProps(state) {
+   return {
+      projects: state.projects
+   };
+}
+
+export default connect(mapStateToProps)(ContentLeft);

@@ -6,7 +6,7 @@ import {connect} from 'react-redux';
    createListImages () {
       return this.props.projects.map((tech) => {
          return (
-            <li>{tech.tech}</li>
+            <li key={tech.id}>{tech.tech}</li>
             );
       });
    }

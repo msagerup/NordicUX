@@ -1,14 +1,18 @@
 import React from 'react';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
-
-
+import selectProject from '../actions/index';
 
 class ContentLeft extends React.Component {
    createListProjects () {
       return this.props.projects.map((project) => {
          return (
-            <li key={project.id}>{project.name} : {project.desc}</li>
+            <li 
+               key={project.id}
+               onClick={ () => console.log(this.props.selectProject())}
+            >
+               {project.name} : {project.desc}
+            </li>
             );
       });
    }   
@@ -20,8 +24,6 @@ class ContentLeft extends React.Component {
               {this.createListProjects()}
             </ul>
          </div>
-
-
       );
    }
 }
@@ -32,4 +34,8 @@ function mapStateToProps(state) {
    };
 }
 
-export default connect(mapStateToProps)(ContentLeft);
+function matchDispatchToProps(dispatch) {
+   return bindActionCreators({selectProject: selectProject}, dispatch)
+}
+
+export default connect(mapStateToProps, matchDispatchToProps)(ContentLeft);

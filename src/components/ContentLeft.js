@@ -1,7 +1,7 @@
 import React from 'react';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
-import selectProject from '../actions/index';
+import {selectProject} from '../actions/index';
 
 class ContentLeft extends React.Component {
    createListProjects () {
@@ -9,7 +9,7 @@ class ContentLeft extends React.Component {
          return (
             <li 
                key={project.id}
-               onClick={ () => console.log(this.props.selectProject())}
+               onClick={()=> this.props.selectProject(project)}
             >
                {project.name} : {project.desc}
             </li>

@@ -3,19 +3,15 @@ import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
  class ContentRightTop extends React.Component {
-   createListImages () {
-      return this.props.projects.map((tech) => {
-         return (
-            <li key={tech.id}>{tech.tech}</li>
-            );
-      });
-   }
+  showProjectDetails () {
+
+  }
    render () {
       return (
       
          <div className="upper xlLargeTall">
            <ul>
-              {this.createListImages()}
+              <p>{this.props.project.tech}</p>
            </ul>
          </div>
 
@@ -25,7 +21,7 @@ import {connect} from 'react-redux';
 
 function mapStateToProps(state) {
    return {
-      projects: state.projects
+      project: state.activeProject
    };
 }
 

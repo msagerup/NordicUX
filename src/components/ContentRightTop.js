@@ -11,7 +11,7 @@ import {connect} from 'react-redux';
       
          <div className="upper xlLargeTall">
            <ul>
-              <p>{this.props.project.tech}</p>
+              <p>RIGHT TOP</p>
            </ul>
          </div>
 

@@ -9,7 +9,7 @@ class RightSideBottomRight extends React.Component {
      
       return (
          <div className="right-side__buttom-right large">
-            <p>{this.props.project.tech}</p>
+            <p>RIGHT BOTTOM</p>
          </div>
 
       )

@@ -4,17 +4,12 @@ import ContentRight from '../components/ContentRight';
 
 
 class Golden extends React.Component {
-
-     
-   
    render () {
       return (
-
          <div className="golden full">
             <ContentLeft />     
             <ContentRight />
          </div>
-
       );
    }
 }

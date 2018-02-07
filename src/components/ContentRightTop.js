@@ -3,9 +3,7 @@ import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
  class ContentRightTop extends React.Component {
-  showProjectDetails () {
-
-  }
+  
    render () {
       return (
       
@@ -19,10 +17,6 @@ import {connect} from 'react-redux';
    }
 }
 
-function mapStateToProps(state) {
-   return {
-      project: state.activeProject
-   };
-}
 
-export default connect(mapStateToProps)(ContentRightTop);
+
+export default ContentRightTop;

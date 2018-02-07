@@ -1,7 +1,7 @@
 import React from 'react';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
-import {selectProject} from '../actions/index';
+
 
 class ContentLeft extends React.Component {
    
@@ -17,12 +17,6 @@ class ContentLeft extends React.Component {
    }
 }
 
-function mapStateToProps(state) {
-   return {
-      projects: state.projects
-   };
-}
 
 
-
-export default connect(mapStateToProps)(ContentLeft);
+export default ContentLeft;

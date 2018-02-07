@@ -3,13 +3,18 @@ import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 
 class RightSideBottomRight extends React.Component {
-   
+   renderList() {
+      return this.props.projects.map((project) =>{
+         <li key={project.id}>{project.name}</li>
+      });
+   }
 
    render () {
-     
-      return (
+     return (
          <div className="right-side__buttom-right large">
-            <p>RIGHT BOTTOM</p>
+            <ul>
+               {() => this.renderList()}
+            </ul>
          </div>
 
       )
@@ -18,8 +23,8 @@ class RightSideBottomRight extends React.Component {
 
 function mapStateToProps(state) {
    return {
-      project: state.activeProject
-   };
+      projects: state.projects
+   }
 }
 
 export default connect(mapStateToProps)(RightSideBottomRight);

@@ -37,7 +37,7 @@ $gld1: $gld3 - $gld2;
    width: $base - ($gld7 + $gld7);
 }
 .xlLargeTall {
-   height: $base - ($gld6 + $gld6) -2;
+   height: $base - ($gld6 + $gld6) -3;
 }
 
 .med {
@@ -50,7 +50,7 @@ $gld1: $gld3 - $gld2;
    width: $gld8;
 }
 .smallTall {
-   height: gld8;
+   height: $gld8;
 }
 .xsmall {
    width: $gld7;
@@ -83,25 +83,16 @@ $gld1: $gld3 - $gld2;
 }
 .right-side__buttom {
    display: flex;
-   height: 20%;
+   height: 21%;
 }
 
-.right-side__buttom-left {
-   display: flex;
-   border-bottom: 0.2px solid gray;
-   margin-bottom: 12px;
-}
+
 
 .right-side__buttom-left__large {
   border-right: 0.2px solid gray;
 }
 
 
-
-.right-side__buttom-right {
-   border-left: 0.2px solid gray;
-   
-} 
 
 .right-side__buttom-left__med-top {
    border-bottom: 0.2px solid gray;

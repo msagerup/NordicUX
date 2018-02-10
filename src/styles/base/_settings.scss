@@ -2,13 +2,18 @@
 $light-bgcolor: #F1F1F1;
 $darkBlack: #1b1b1b;
 $darkGray: #333;
+$lightLime: #E5FF80;
+$darkLime: #DDFF55;
+$dirtyGreen: #AAD400;
 
 //Background color palate 
 $bg-white: #FCFEFE;
-$bg-teal: #A9EEE6;
-$bg-light: #FEFAEC;
-$bg-red: #F38181;
-$bg-dark:#625772;
+$bg-darkGray: #333;
+$bg-lightLime: #E5FF80;
+$bg-darkLime: #DDFF55;
+$bg-dirtyGreen: #AAD400;
+$bg-dirtyGreenLight: lighten($bg-dirtyGreen, 20%);
+
 
 
 //Spacing
@@ -27,3 +32,7 @@ $ms-font: 1.8em;
 $s-line: 1.2em;
 $m-line: 1.5em;
 $l-line: 2em;
+
+//Font Family
+
+$Roboto: 'Roboto';

@@ -1,0 +1,15 @@
+.right-side__bottom-right {
+   background-color: $bg-darkLime;
+   border-left: .2px solid gray;
+}
+
+
+@media screen and (max-width: 500px) {
+   .right-side__bottom-right {
+      position: fixed;
+      left: 0;
+      height: 21%;
+      bottom: 12%;
+      width: 38%;
+   }
+}

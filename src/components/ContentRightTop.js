@@ -8,9 +8,7 @@ import {connect} from 'react-redux';
       return (
       
          <div className="upper xlLargeTall">
-           <ul>
-              <p>RIGHT TOP</p>
-           </ul>
+           
          </div>
 
       );

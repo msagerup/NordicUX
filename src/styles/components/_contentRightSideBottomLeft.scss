@@ -1,0 +1,20 @@
+.right-side__bottom-left {
+   background-color: $bg-dirtyGreen;
+   display: flex;
+   border-bottom: 0.2px solid gray;
+   margin-bottom: 12px;
+}
+
+.right-side {
+   background-color: red;
+}
+
+@media screen and (max-width: 500px) {
+   .right-side__bottom-left {
+      position: fixed;
+      left: 0;
+      height: 15%;
+      top: 53.4%;
+
+   }
+}

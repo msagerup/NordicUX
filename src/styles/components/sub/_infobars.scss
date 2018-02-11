@@ -1,0 +1,41 @@
+.infobars {
+   position: relative;
+   background-color: $bg-blueGray;
+   width: 90%;
+   padding: $l-size 0 $l-size 0;
+   font-family: 'Roboto';
+   color: $whitefont;
+   margin: $m-size $l-size 0 $l-size;
+   box-shadow: 9px 10px 3px rgba(52, 64, 0, 0.33)
+}
+
+.infobars>h3 {
+   letter-spacing: 10px;
+   margin: 0 30% $m-size $l-size;
+   font-size: 16px;
+}
+
+.infobars>p {
+ margin: 0 35% $s-size $l-size;
+ letter-spacing: 2px;
+ line-height: 20px;
+ font-size: 13px;
+}
+
+.infocorner {
+   position: absolute;
+   margin-right: $l-size;
+   right: 0;
+   top: 0;
+   font-family: 'Cabin';
+   font-size: 12px;
+   letter-spacing: 14px;
+   width: 80px;
+   text-align: right;
+   word-wrap: break-word;
+   line-height: 25px;
+   background-color: #aad400;
+   color: $darkGray;
+}
+
+

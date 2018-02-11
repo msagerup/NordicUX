@@ -7,7 +7,6 @@ import NotFound from '../components/NotFound';
 import Contact from '../components/Contact';
 import Projects from '../components/Projects';
 
-
 const NordicRouter = () => (
    <BrowserRouter>
       <div>

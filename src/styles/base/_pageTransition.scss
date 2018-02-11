@@ -1,14 +1,10 @@
 .PageAppear-appear {
    opacity: 0;
-   
 }
-
 .PageAppear-appear.PageAppear-appear-active {
    opacity: 1;
    transition: all 1s ease-out;
 }
-
-
 $A-duration: 700ms;
 
 .loader {
@@ -28,7 +24,6 @@ $A-duration: 700ms;
       height: 0%;
    }
 }
-
 .loader__subOne {
    width: 33.33%;
    background-color: #0E0E0E;
@@ -38,7 +33,6 @@ $A-duration: 700ms;
    animation-fill-mode: forwards;
    transition-timing-function: cubic-bezier(0.525, -0.005, 0.225, 1.000);
 }
-
 @keyframes subTwo {
    0% {
       height: 100%;
@@ -47,7 +41,6 @@ $A-duration: 700ms;
       height: 0%;
    }
 }
-
 .loader__subTwo {
    width: 33.33%; 
    background-color: #0E0E0E;
@@ -56,9 +49,7 @@ $A-duration: 700ms;
    animation-delay: 1.022s;
    animation-fill-mode: forwards;
    transition-timing-function: cubic-bezier(0.525, -0.005, 0.225, 1.000);
-
 }
-
 @keyframes subThree {
    0% {
       height: 100%;
@@ -67,7 +58,6 @@ $A-duration: 700ms;
       height: 0%;
    }
 }
-
 .loader__subThree {
    width: 33.33%;
    margin-left: 1px;

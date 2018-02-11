@@ -24,13 +24,14 @@
 }
 
 .hover {
-  
+   width: 0;
+  transition: width 1s;
+  transition-timing-function: cubic-bezier(0.71, 0, 0.13, 1.68);
 }
-
 .hover:hover {
    background-color: $darkLime;
    color: $darkGray;
-   width: 60px;
+   width: 90px;
    padding: 12px 5px 12px 0px;
    cursor: pointer;
 

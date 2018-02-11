@@ -7,7 +7,7 @@ class LogoText extends React.Component {
       return (
          <div className="logo-text">
             {letters.map(letter => {
-               return <span>{letter}</span>
+               return <span key={letter}>{letter}</span>
             })}
          </div>
 

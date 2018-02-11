@@ -1,6 +1,5 @@
 //Golden Ratio
 
-
 $golden: 1.618;
 $base: 100%;
 $gld10: $base / $golden;
@@ -13,7 +12,6 @@ $gld4: $gld5 / $golden;
 $gld3: $gld5 - $gld4;
 $gld2: $gld3 / $golden;
 $gld1: $gld3 - $gld2;
-
 
 
 .golden {
@@ -67,8 +65,6 @@ $gld1: $gld3 - $gld2;
 .xxxsmall {
    width: $gld5;
 }
-
-
 .upper {
   
    border-bottom: 0.5px black solid;
@@ -77,23 +73,12 @@ $gld1: $gld3 - $gld2;
    background-color: orange;
    height: 100%;
 }
-
 .left {
    border-right: .5px black solid;
 }
-.right-side__buttom {
-   display: flex;
-   height: 21%;
-}
-
-
-
 .right-side__buttom-left__large {
   border-right: 0.2px solid gray;
 }
-
-
-
 .right-side__buttom-left__med-top {
    border-bottom: 0.2px solid gray;
 

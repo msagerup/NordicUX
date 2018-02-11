@@ -1,9 +1,6 @@
 import React from 'react';
 import Typist from 'react-typist';
 
-
-
-
 class SubTitle extends React.Component {
    render () {
     const myCur = {

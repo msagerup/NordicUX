@@ -17,19 +17,14 @@ class RightSideBottomRight extends React.Component {
       });
    }
 
-   render () {
-     
+   render () {   
      return (
          <div className="right-side__bottom-right large">
             <ul>
                {this.renderList()}
-
             </ul>
-            <h4>HELLLO </h4>
-            
+            <h4>HELLLO </h4>    
          </div>
-
-
       )
    }
 }
@@ -38,7 +33,6 @@ function mapStateToProps(state) {
    return {
       projects: state.projects,
       project: state.SelectedProject
-
    }
 }
 

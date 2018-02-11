@@ -4,17 +4,14 @@ import RightSideBottomRight from '../components/RightSideBottomRight';
 
 export default class ContentRightBottom extends React.Component {
    
-
-
    render () {
       return (
 
          <div className="right-side__buttom">
-           <RightSideBottomLeft />
-           <RightSideBottomRight />
-            
+            <RightSideBottomLeft />
+            <RightSideBottomRight />
+            <div className="tester">HEEELL</div>     
          </div>
-
       );  
    }
 }

@@ -6,9 +6,9 @@ import {connect} from 'react-redux';
   
    render () {
       return (
-      
          <div className="upper xlLargeTall">
-           
+         	
+
          </div>
 
       );

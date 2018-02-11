@@ -8,9 +8,7 @@ class RightSideBottomLeftMedium extends React.Component {
          <div className="right-side__buttom-left__med med">
             <RightSideBottomLeftTop />
             <RightSideBottomLeftBottom />
-            
-         </div>
-
+        </div>
       );
    }
 }

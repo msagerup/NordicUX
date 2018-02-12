@@ -1,6 +1,9 @@
 .left-side {
    background-color: $bg-darkGray;
    position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .logo-text {
@@ -20,7 +23,6 @@
 .logo-text >span {
    padding-left: 30px;
    padding-bottom: 5px;
-
 }
 
 .logo-text >span:nth-child(3) {
@@ -37,6 +39,5 @@
    .left-side {
       height: 55%;
       width: 100%;
-   }   
-   
+   }     
 }

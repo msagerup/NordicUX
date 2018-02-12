@@ -11,6 +11,8 @@ class Menu extends React.Component {
     hideWhenDoneDelay: 20000,
     isDone: false,
    }
+   
+   
       return (
          <div id="home-left-side">
             <div className="home-left-side__text">

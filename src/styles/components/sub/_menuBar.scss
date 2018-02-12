@@ -1,0 +1,17 @@
+.menu-bar {
+   position: absolute;
+   right: 0;
+   top: 20%;
+   height: 100%;
+   
+}
+
+.menu-bar__items {
+   margin-bottom: 10px;
+   height: 5%;
+   background-color: $light-bgcolor;
+}
+
+.menu-bar__items:hover {
+   height: 15%;
+}

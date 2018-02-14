@@ -6,7 +6,6 @@ import Golden from '../components/Golden';
 import NotFound from '../components/NotFound';
 import Projects from '../components/Projects';
 import Contact from '../components/sub-components/Contact';
-import MenuBar from '../components/sub-components/MenuBar';
 
 
 const NordicRouter = () => (

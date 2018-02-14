@@ -6,7 +6,7 @@ class Project extends React.Component {
    render() {
       return(
 
-         <div className="project-holder large">
+         <div className="content-holder large">
             <h3>{this.props.project.name}</h3>
             <p>{this.props.project.desc}</p>
          </div>

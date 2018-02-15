@@ -10,60 +10,42 @@ import Order from './sub-components/Order';
 class ContentLeft extends React.Component {
    constructor () {
       super ()
-      this.state = {
-         isHidden: true,
-         infoHidden: true,
-         contactHidden: true,
-         orderHidden: true
+      this.state = {    
       }
    }
-   toggleContact () {
-      this.setState({
-         contactHidden: !this.state.contactHidden,
-      })
-   }
-   
-   toggleInfo() {
-      this.setState ({
-         infoHidden: !this.state.infoHidden
-      })
-   }
 
-   toggleOrder () {
-      this.setState ({
-         orderHidden: !this.state.orderHidden
-      })
-   }
+ // This passes in the component name and checks if its equal to the state
+ toggle(componentName) {
+   console.log('this is the state that is passed:', this.state)
+  this.setState({
+       activeComponent: this.state.activeComponent === componentName ? null : componentName
+  });
+}
 
    render () {
-      const isHidden = this.state.isHidden;   
-      const order = this.state.orderHidden;
-      const contact = this.state.contactHidden;
-      const info = this.state.infoHidden;
-
-      console.log(contact, info, order, isHidden)
-
+      console.log(!this.state.activeComponent === 'contact' && <Contact />)
        return (
-         <div className="left-side large left">
-        
-         {!contact && <Contact />}
-         {!info && <Info />}
-         {!order && <Order />}
+         <div className="left-side large left"> 
 
+         {this.state.activeComponent === 'contact' && <Contact />} 
+         {this.state.activeComponent === 'info' && <Info />}
+         {this.state.activeComponent === 'order' && <Order />}  
+          
 
          <div className="menu-bar">
             <div className="menu-bar__items" 
-               onClick={ this.toggleContact.bind(this) }
+              onClick={this.toggle.bind(this, 'contact')}
             >
                Contact
             </div>
             <div className="menu-bar__items"
-               onClick={this.toggleInfo.bind(this)}
+               onClick={this.toggle.bind(this, 'info')}
             >
                Info
             </div>
             <div className="menu-bar__items"
-               onClick={this.toggleOrder.bind(this)}
+               onClick={this.toggle.bind(this, 'order')}
+               
             >
                Order
             </div>

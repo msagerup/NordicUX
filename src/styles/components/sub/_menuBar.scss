@@ -2,7 +2,8 @@
    position: absolute;
    right: 0;
    top: 20%;
-   height: 100%;
+   height: 80%;
+   cursor: pointer;
    
 }
 
@@ -10,8 +11,11 @@
    margin-bottom: 10px;
    height: 5%;
    background-color: $light-bgcolor;
+   transition: height 1s;
+   transition-timing-function: cubic-bezier(0.71, 0, 0.13, 1.68);
 }
 
 .menu-bar__items:hover {
    height: 15%;
+
 }

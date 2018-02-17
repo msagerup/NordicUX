@@ -28,7 +28,6 @@ class ContentLeft extends React.Component {
       console.log(!this.state.activeComponent === 'contact' && <Contact />)
        return (
          <div className="left-side large left"> 
-
             <CSSTransitionGroup //Menu Components loads on page with animation
                transitionName="menu-loader"
                transitionAppear= {false}
@@ -48,23 +47,23 @@ class ContentLeft extends React.Component {
             <div className="menu-bar__items" 
               onClick={this.toggle.bind(this, 'about')}
             >
-               About
+               <h5>About</h5>
             </div>
             <div className="menu-bar__items" 
               onClick={this.toggle.bind(this, 'projects')}
             >
-               Projects
+               <h5>Projects</h5>
             </div>
             <div className="menu-bar__items"
                onClick={this.toggle.bind(this, 'contact')}
             >
-               Contact
+               <h5>Contact</h5>
             </div>
             <div className="menu-bar__items"
                onClick={this.toggle.bind(this, 'order')}
                
             >
-               Order
+               <h5>Order</h5>
             </div>
          </div>
             <LogoText />

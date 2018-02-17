@@ -1,0 +1,68 @@
+.contact-form {
+   width: 400px;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+}
+
+.contact-form__label-name {
+   font-size: 13px;
+   padding-bottom: $s-size;
+   padding-left: 5px;
+}
+
+.contact-form>label {
+   padding-bottom: 10px;
+}
+
+.contact-form input {
+   display: flex;
+   padding: 0.8rem;
+   font-size: 13px;
+   background-color: $light-bgcolor;
+   border: 0px;
+   width: 200px;
+   transition: width 1s;
+   transition-timing-function: cubic-bezier(0.71, 0, 0.13, 1.68);
+}
+
+.contact-form input:focus {
+   width: 250px;
+   display: flex;
+   padding: 0.8rem;
+   font-size: 13px;
+   background-color: $darkLime;
+   border-bottom: 3px solid $bg-blueGray;
+}  
+
+.contact-form textarea {
+   display: flex;
+   height: 200px;
+   width: 400px;
+}
+
+.contact-form textarea:focus {
+   width: 500px;
+   transition: width 1s;
+   transition-timing-function: cubic-bezier(0.71, 0, 0.13, 1.68);
+   background-color: $darkLime;
+   border-bottom: 3px solid $bg-blueGray;
+}
+
+.form-timer {
+   position: absolute;
+   top: 23.5vh;
+   right: 0;
+   width: 400px;
+   padding-right: $l-size;
+   font-family: 'Cabin';
+   font-size: 13px;
+
+}
+
+.time {
+   font-size: 8rem;
+   font-family: 'Roboto';
+   font-weight: 100;
+   color: $darkLime;
+}

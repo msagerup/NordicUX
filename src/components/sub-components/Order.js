@@ -3,7 +3,9 @@ import React from 'react';
 const Order = () => {
    return (
       <div className="content-holder large">
-         <h1>Hello This is from Order</h1>
+         <div className="infocorner content-holder__menu-tag">
+            <h4>Ord-er</h4>
+         </div>
       </div>
    )
 };

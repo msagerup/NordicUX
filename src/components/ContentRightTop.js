@@ -10,8 +10,8 @@ import InfoWork from './sub-components/ContentRightTop_Info-work';
    render () {
       return (
          <div className="upper xlLargeTall">
-            <Info />
-            <InfoWork />
+         <Info />
+         <InfoWork />
             
          </div>
 

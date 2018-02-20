@@ -11,10 +11,11 @@
 
 @media screen and (max-width: 500px) {
    .right-side__bottom-left {
-      position: fixed;
-      left: 0;
-      height: 15%;
-      top: 53.4%;
+      width: 38%;
 
+   }
+
+   .right-side__buttom {
+      display: block;
    }
 }

@@ -28,5 +28,12 @@
 .menu-loader-leave-active {
    transition: all 300ms cubic-bezier(.44,.01,0,1);
    transform: translateY(100vh);
-
 } 
+
+@media screen and (max-width: 500px) {
+   .content-holder {
+      padding: $s-size;
+      height: 50vh;
+      width: 100vw;
+   }
+}

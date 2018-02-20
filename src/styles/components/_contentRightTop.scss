@@ -5,4 +5,15 @@
    display: flex;
    flex-direction: column;
    align-items: center;
+   background-color: green;
+}
+
+@media screen and (max-width: 500px) {
+   .upper {
+      width: 62%;
+      float: right;
+      overflow: scroll;
+      padding-top: 0px;
+
+   }
 }

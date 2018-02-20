@@ -66,3 +66,9 @@
    font-weight: 100;
    color: $darkLime;
 }
+
+@media screen and (max-width: 500px) {
+   .form-timer {
+      display: none;
+   }
+}

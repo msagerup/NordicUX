@@ -1,0 +1,22 @@
+.about-content p {
+   margin-right: 100px;
+   line-height: 25px;
+   font-family: 'Roboto';
+   clear: both;
+}
+
+.about-content hr {
+   border: 1px solid  $darkLime;
+   width: 30%;
+   float: left;
+   margin-bottom: $m-size;
+}
+
+.about-content h3 {
+   margin-bottom: 5px;
+}
+
+.about-content__tech-images img {
+   width: 440px;
+   height: auto;
+}

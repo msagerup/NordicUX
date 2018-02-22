@@ -11,9 +11,8 @@ class OrderHandler extends React.Component {
       };
       this.toggleSubSelected = this.toggleSubSelected.bind(this);
    }
-
+   // Gets value from OrderSelector component
    toggleSubSelected(selected) {
-      console.log(selected)
       this.setState({
          subSelected: selected
       });
@@ -23,8 +22,7 @@ class OrderHandler extends React.Component {
    return (
       <div className="order-handler">
          <OrderSelector mainSelected = {this.state.mainSelected} triggerSubSelected={this.toggleSubSelected}/>
-         <OrderSubSelector  />
-         <h3> {this.state.subSelected}</h3>
+         <OrderSubSelector  subSelection = {this.state.subSelected} mainSelectionTitle = {this.state.subSelected}/>
       </div>
    )
    }

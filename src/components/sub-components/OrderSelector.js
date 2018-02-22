@@ -10,6 +10,7 @@ class OrderSelector extends React.Component {
    render () {
    return (
       <div className="order-handler__field large">
+         <h3>Please Select Features:</h3>
          <ul>
             {this.props.mainSelected.map((mainSelect) => {
                return (

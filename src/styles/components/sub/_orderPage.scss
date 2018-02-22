@@ -1,0 +1,12 @@
+.order-handler {
+   display: flex;
+ 
+}
+
+.order-handler__field {
+   padding: $s-size;
+   background-color: $bg-blueGray;
+   margin-left: 2px;
+   color: $whitefont;
+   height: 30vh;
+}

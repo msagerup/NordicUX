@@ -1,4 +1,6 @@
 import React from 'react';
+import OrderHandler from '../sub-components/OrderHandler';
+
 
 class Order extends React.Component {
    render () {
@@ -13,17 +15,7 @@ class Order extends React.Component {
             <p>Please select what features you need for your business and I will get
             in touch with you. Your selected options will be show at the bottom on this tab</p>
          </div>
-         <div className="order-content__main-feature">
-
-            <ul>
-               <li>Item1</li>
-               <li>Item2</li>
-               <li>Item3</li>
-               <li>Item4</li>
-               <li>Item5</li>
-            </ul>
-
-         </div>
+         <OrderHandler />
       </div>
    )
    }

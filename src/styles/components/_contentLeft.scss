@@ -7,38 +7,9 @@
    overflow: hidden;
 }
 
-.logo-text {
-   width: 15.19%;
-   height: 9%;
-   position: absolute;
-   right: 0;
-   bottom: 0;
-   font-family: 'Cabin';
-   font-size: 15px;
-   color: $light-bgcolor;
-   text-transform: uppercase;
-   display: flex;
-   flex-wrap: wrap;  
-}
-
-.logo-text >span {
-   padding-left: 30px;
-   padding-bottom: 5px;
-}
-
-.logo-text >span:nth-child(3) {
-   display: inline-block;
-  transform: scaleX(-1); 
-  padding-right: 30px;
-  filter: FlipH; 
-}
-.logo-text >span:nth-child(4){
-   padding-left: 0px;
-}
-
 @media screen and (max-width: 500px) {
    .left-side {
-      height: 55%;
+      height: 100%;
       width: 100%;
    }     
 }

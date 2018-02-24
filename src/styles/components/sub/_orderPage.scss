@@ -2,15 +2,49 @@
    display: flex;
 }
 
-
-
 .order-handler__field {
    padding: $s-size;
    background-color: $bg-blueGray;
    color: $whitefont;
-   height: 30vh;
+   height: 40vh;
+   position: relative;
 }
 
 .order-handler__field:nth-child(2) {
    margin-left: 2px;
+}
+
+.order-handler__field li {
+   padding-bottom: 10px;
+}
+
+.order-handler__field li:nth-child(1) {
+   padding-top: 10px;
+}
+
+.order-handler__field ul {
+   margin: 0px;
+}
+
+.subSelected {
+   margin-bottom: $xl-size;
+   padding-left: 10rem;
+}
+
+.subSelected:nth-child(2) {
+   position: absolute;
+   right: 0;
+   top: $s-size;
+   width: 50%;
+   height: 151px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   border-left: 2px solid yellow;
+}
+
+.order-handler__summery {
+   background-color: red;
+   padding: $s-size 0 $s-size $s-size;
+   margin: 0;
 }

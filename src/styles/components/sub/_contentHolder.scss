@@ -33,7 +33,8 @@
 @media screen and (max-width: 500px) {
    .content-holder {
       padding: $s-size;
-      height: 50vh;
-      width: 100vw;
+      height: 92vh;
+      width: 89vw;
+      overflow: scroll;
    }
 }

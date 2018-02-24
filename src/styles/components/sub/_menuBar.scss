@@ -18,7 +18,7 @@
 }
 
 .menu-bar__items:hover {
-   height: 15%;
+   height: 25%;
    background-color: $darkLime;
 }
 
@@ -29,6 +29,10 @@
 }
 
 @media screen and (max-width: 500px) {
+   .menu-bar {
+      height: 38%;
+   }
+
    .menu-bar__items {
       height: 12%;
    }

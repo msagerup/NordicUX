@@ -20,3 +20,16 @@
    width: 440px;
    height: auto;
 }
+
+
+@media screen and (max-width: 500px) {
+   .about-content p {
+      margin-right: 40px;
+   }
+   .about-content h3 {
+      font-family: 'Cabin';
+      font-size: 5rem;
+      letter-spacing: 4px;
+      margin-top: 0px;
+   }
+}

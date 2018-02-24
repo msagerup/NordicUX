@@ -18,7 +18,7 @@ class About extends React.Component {
             <h4>Abo-ut me</h4>
          </div>
          <div className="about-content">
-            <h3>Nice to meet you!</h3><hr/>
+            <h3>Nice to meet you!!</h3><hr/>
             <p><span>Magnus Sagerup</span> is my name, I am {this.age()} years old and  and I am a self tought front-end
             developer. I started learning in November 2016 as I realized that I realy wanted to follow my passion and 
             truly learn how to code.</p>

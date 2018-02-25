@@ -13,6 +13,7 @@
    letter-spacing: 10px;
    margin: 0 30% $m-size $l-size;
    font-size: 16px;
+   font-family: 'Cabin';
 }
 
 .infobars>p {
@@ -39,6 +40,7 @@
 }
 
 
+
 @media screen and (max-width: 500px) {
    .infobars {
       margin: 0;
@@ -46,10 +48,30 @@
       width: 100%;
    }
    .infobars>p {
-      margin: 0 $s-size $s-size $s-size;
+      margin: 0 0 2rem 0;
+      padding: 100px $s-size 100px $s-size;
    }
    .infobars>h3 {
-      margin: 0 $s-size $s-size $s-size;
+      margin: 0 $s-size $l-size $s-size;
+      letter-spacing: 4px;
+      font-size: 3rem;
+   }
+   .darkGreen {
+      background-color: #2f9e2c;
+   }
+   .paleGreen {
+      background-color: #538751;
+   }
+   .paleRed {
+      background-color: $paleRed;
+   }
+
+   .h3padded{
+      padding-top: 32px;
+   }
+   
+   .workinfo {
+      padding-top: 0px;
    }
 
    .infocorner {

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Typist from 'react-typist';
 
 class Menu extends React.Component {
@@ -22,12 +23,12 @@ class Menu extends React.Component {
                 stdTypingDelay = { 25 }
                 cursor = { myCur }
               >
-                  ...<div className="hover">Home</div>.
-                  ... <div className="hover">01</div>
-                  . ... <div className="hover">02</div>
-                  . ... <div className="hover">03</div>
-                  . ... <div className="hover">04</div>
-                  ... <div className="hover">05</div> . ..
+                  ...<div className="hover"><Link to="/">Home</Link></div>.
+                  ... <div className="hover"><Link to="/project/1">01</Link></div>
+                  . ... <div className="hover"><Link to="/project/2">02</Link></div>
+                  . ... <div className="hover"><Link to="/project/3">03</Link></div>
+                  . ... <div className="hover"><Link to="/project/4">04</Link></div>
+                  ... <div className="hover"><Link to="/project/5">05</Link></div> . ..
               </Typist>
             </div>
          </div>   

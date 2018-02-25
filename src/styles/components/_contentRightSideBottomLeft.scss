@@ -1,7 +1,6 @@
 .right-side__bottom-left {
    background-color: $bg-dirtyGreen;
    display: flex;
-   border-bottom: 0.2px solid gray;
    margin-bottom: 12px;
 }
 
@@ -9,13 +8,47 @@
    background-color: red;
 }
 
+.right-side__buttom-left__large {
+   
+}
+
+.right-side__buttom-left__large__atSign {
+   color: rgb(15, 207, 0);
+   font-family: 'Roboto';
+   font-weight: 100;
+   font-size: 9rem;
+   position: relative;
+   bottom: -66px;
+   left: 5px;
+}
+
+
 @media screen and (max-width: 500px) {
    .right-side__bottom-left {
       width: 38%;
-
+      float: left;
    }
-
    .right-side__buttom {
       display: block;
+   }
+   .right-side__buttom-left__large {
+      background-color: darken($lime, 40%);
+      border-right: 0px;
+      height: 75.14px;
+      padding: $s-size;
+   }
+   .right-side__buttom-left__med-top {
+      background-color: darken($lime, 50%);
+      height: 46.44px;
+   }
+   .right-side__bottom-left__med-bottom {
+      background-color: darken($lime, 60%);
+      height: 28px;
+   }
+   .right-side__buttom-left__med-top {
+      border-bottom: 0px;
+   }
+   body {
+      background-color: darken($lime, 30%)
    }
 }

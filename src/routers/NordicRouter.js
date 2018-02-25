@@ -4,8 +4,9 @@ import Home from '../components/Home';
 import Menu from '../components/Menu';
 import Golden from '../components/Golden';
 import NotFound from '../components/NotFound';
-import Projects from '../components/Projects';
 import Contact from '../components/sub-components/Contact';
+import ProjectOne from '../components/projects/ProjectOne';
+import ProjectTwo from '../components/projects/ProjectTwo';
 
 
 const NordicRouter = () => (
@@ -15,7 +16,8 @@ const NordicRouter = () => (
          <Switch>
             <Route path="/" component ={ Golden } exact={ true } />
             <Route path="/contact" component = { Contact } />
-            <Route path="/projects" component = { Projects } />
+            <Route path="/project/1" component = { ProjectOne } />
+            <Route path="/project/2" component = { ProjectTwo } />
             <Route path="/golden" component = { Golden } />
             <Route component ={ NotFound } />
          </Switch>

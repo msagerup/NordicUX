@@ -9,8 +9,7 @@ export default class ContentRightBottom extends React.Component {
 
          <div className="right-side__buttom">
             <RightSideBottomLeft />
-            <RightSideBottomRight />
-            <div className="tester">HEEELL</div>     
+            <RightSideBottomRight />        
          </div>
       );  
    }

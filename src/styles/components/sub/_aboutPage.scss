@@ -28,8 +28,11 @@
    }
    .about-content h3 {
       font-family: 'Cabin';
-      font-size: 5rem;
+      font-size: 3.5rem;
       letter-spacing: 4px;
-      margin-top: 0px;
+      margin-top: $s-size;
+   }
+   .about-content hr {
+      margin-bottom: $l-size;
    }
 }

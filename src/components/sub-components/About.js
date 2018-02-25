@@ -18,7 +18,7 @@ class About extends React.Component {
             <h4>Abo-ut me</h4>
          </div>
          <div className="about-content">
-            <h3>Nice to meet you!!</h3><hr/>
+            <h3>Nice to meet you!</h3><hr/>
             <p><span>Magnus Sagerup</span> is my name, I am {this.age()} years old and  and I am a self tought front-end
             developer. I started learning in November 2016 as I realized that I realy wanted to follow my passion and 
             truly learn how to code.</p>
@@ -27,13 +27,17 @@ class About extends React.Component {
             did not know about alot of these, just thinking about how much there was to learn keept me up at night, but well, hell,
             look at me now, this whole page is built with React :)</p>
             <h3>
-               What I know
+               What I work with
             </h3>
                <hr/>
-            <p>I will focus on the MERN stack and continue developing with this stack on future projects.</p>
-            <div className="about-content__tech-images">
-               <img src="https://hevodata.com/blog/wp-content/uploads/2017/09/mn.png" alt="Node and Mongo DB logo"/>
-            </div>
+            <p>I take pride to work with many technologies and my favorite one at the moment would
+               have to be React and React Native. I also work on the <span>back-end</span> with Node, 
+               <span> Express</span> and <span>MySQL</span></p>
+               <p>I take pride in that I have come so far in a short amount of time and that I will continue
+                  to evovle as a developer as time goes on, going forward I will focus on full stack development,
+                  mobile applications and further down the line I find A.I (Artificial Intelligence) extremely 
+                  facinating and I will follow that path.</p>
+                  <p>I have come to realize that beeing a developer, learning never ends. And I love it.</p>
          </div>
       </div>
    )

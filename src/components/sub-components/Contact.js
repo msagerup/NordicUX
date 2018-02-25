@@ -59,6 +59,7 @@ class Contact extends React.Component {
              </div>
             <div className="infocorner content-holder__menu-tag"><h4>Con -tat me</h4></div>
             <form onSubmit= { this.handleSubmit } className="contact-form">
+               <h3>Contact me</h3>
                <label>
                   <span className="contact-form__label-name">Name:</span>
                   <input type="text" value={ this.state.firstname } onChange={ this.handleChange('firstname') } required />

@@ -34,5 +34,14 @@
    width: 90px;
    padding: 12px 5px 12px 0px;
    cursor: pointer;
+}
 
+@media screen and (max-width: 500px) {
+   #home-left-side {
+      padding-left: 6px;
+   }
+   .home-left-side__text {
+      line-height: 16px;
+      width: 10px;
+   }
 }

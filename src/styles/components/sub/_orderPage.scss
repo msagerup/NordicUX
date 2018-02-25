@@ -48,3 +48,37 @@
    padding: $s-size 0 $s-size $s-size;
    margin: 0;
 }
+
+@media screen and (max-width: 500px) {
+   .order-content h3 {
+      font-family: 'Cabin';
+      font-size: 3.5rem;
+      letter-spacing: 4px;
+      margin-top: $s-size;
+      margin-bottom: 10px;
+   }
+   .order-content p {
+      margin-right: 40px;
+   }
+   .subSelected {
+      padding-left: 0px;
+      margin-bottom: 3.8rem;
+   }
+   .subSelected:nth-child(2) {
+      padding-left: 30px;
+
+   }
+   .subSelected ul {
+      list-style: none;
+      padding-left: 0px;
+      font-size: 13px;
+   }
+   .order-handler__field {
+      height: 30vh;
+   }
+   .order-handler__summery {
+      width: 74vw;
+      font-size: 13px;
+   
+   }
+}

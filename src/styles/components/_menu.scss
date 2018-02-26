@@ -13,6 +13,7 @@
    z-index: 1000;
 }
 
+
 .home-left-side__text {
    font-family: 'Roboto';
    color: $whitefont;
@@ -24,18 +25,23 @@
 }
 
 .home-left-side__text a:link {
-   color: $whitefont;
+   color: $darkBlack;
    text-decoration: none;
 }
 
 .home-left-side__text a:visited {
-   color: $whitefont;
+   color: $darkBlack;
    text-decoration: none;
 }
 
 .home-left-side__text a:hover {
-   color: $darkGray;
+   color: $darkBlack;
    text-decoration: none;
+   font-size: 1rem;
+}
+
+.home-left-side__text a {
+   background-color: $lime;
 } 
 
 .hover {

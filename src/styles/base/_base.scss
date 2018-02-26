@@ -29,3 +29,11 @@ button:disabled {
 ::-webkit-scrollbar { 
     display: none; 
 }
+
+// HR
+hr {
+   border: 1px solid $darkBlack;
+   width: 35%;
+   float: left;
+   margin-bottom: $m-size
+}

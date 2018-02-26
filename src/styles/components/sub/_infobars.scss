@@ -1,6 +1,10 @@
 .infobars {
    position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
    background-color: $bg-blueGray;
+   height: 72vh;
    width: 90%;
    padding: $l-size 0 $l-size 0;
    font-family: 'Roboto';
@@ -10,17 +14,14 @@
 }
 
 .infobars>h3 {
-   letter-spacing: 10px;
    margin: 0 30% $m-size $l-size;
-   font-size: 16px;
+   font-size: 2.5rem;
    font-family: 'Cabin';
 }
 
 .infobars>p {
- margin: 0 35% $s-size $l-size;
- letter-spacing: 2px;
- line-height: 20px;
- font-size: 13px;
+ margin: 0 $l-size $s-size $l-size;
+ line-height: 25px;
 }
 
 .infocorner {

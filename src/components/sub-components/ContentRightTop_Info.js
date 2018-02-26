@@ -6,19 +6,15 @@ const Info = () => (
    
    <div className="infobars">
       <InfoCorner />
-      <h3>Meet Nordic UX!</h3>
+      <h3>"One of the best programming skills you can have is knowing when to walk away for awhile." - Oscar Godson </h3>
       <p className="paleGreen">
-         We are a Norwegian webdesign company witch goal it is to
-         make your company stand out for the crowd in these days
-         where it seems most webpages look the same.
+         My path to becoming a programmer has not been easy, but that is what I love about this. To be able to keep going
+          and eventually getting what you have been trying to work, actually work! I have been following my passion now for about a year and I love it. I hope that my enthusiasm will benefit you as well. Feel free to contact me.
       </p>
-      <p className="paleGreen">
-         We have seen that many webpages look and act exactly alike,
-         now who wants that?
-      </p>
-      <h3 className="h3padded">Partner with us</h3>
+     
+      <h3 className="h3padded">Partner with me</h3>
       <p className="paleRed">
-         By partnering with us we can ensure a <span>Long-Term </span>
+         By partnering with me I can ensure a <span>Long-Term </span>
          Partnership that will set your company apart from the rest
       </p>
    </div>

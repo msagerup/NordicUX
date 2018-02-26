@@ -2,9 +2,20 @@
    display: flex;
 }
 
+.order-content h3 {
+   margin-bottom: 5px;
+   font-family: 'Cabin';
+   font-size: 3.5rem;
+   color: $darkGray;
+}
+
+.order-content p {
+   clear: both;
+} 
+
 .order-handler__field {
    padding: $s-size;
-   background-color: $bg-blueGray;
+   background-color: $orange;
    color: $whitefont;
    height: 40vh;
    position: relative;
@@ -28,7 +39,14 @@
 
 .subSelected {
    margin-bottom: $xl-size;
-   padding-left: 10rem;
+}
+
+.subSelected ul {
+   list-style: none;
+}
+
+.subSelected li {
+   cursor: pointer;
 }
 
 .subSelected:nth-child(2) {

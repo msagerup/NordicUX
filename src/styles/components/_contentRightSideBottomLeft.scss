@@ -5,11 +5,19 @@
 }
 
 .right-side {
-   background-color: red;
+   background-color:$bg-darkGray;
 }
 
+.right-side__bottom-left__med-bottom {
+   background-color: darken($bg-darkGray, 5%);
+   height: 39%;
+}
 .right-side__buttom-left__large {
-   
+    background-color: darken($bg-darkGray, 10%);
+}
+
+.right-side__buttom-left__med-top {
+   background-color: darken($bg-darkGray, 15%);
 }
 
 .right-side__buttom-left__large__atSign {

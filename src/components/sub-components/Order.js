@@ -11,7 +11,7 @@ class Order extends React.Component {
             <h4>Ord-er</h4>
          </div>
          <div className="order-content">
-            <h3>Let's work together</h3>
+            <h3>Let's work together</h3><hr/>
             <p>Please select what features you need for your business and I will get
             in touch with you. Your selected options will be show at the bottom on this tab</p>
          </div>

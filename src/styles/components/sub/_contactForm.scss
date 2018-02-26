@@ -5,6 +5,11 @@
    flex-direction: column;
 }
 
+.contact-form h3 {
+   font-size: 3.5rem;
+   color: $darkGray;
+}
+
 .contact-form__label-name {
    font-size: 13px;
    padding-bottom: $s-size;
@@ -19,7 +24,7 @@
    display: flex;
    padding: 0.8rem;
    font-size: 13px;
-   background-color: $light-bgcolor;
+   background-color: $bg-blueGray;
    border: 0px;
    width: 200px;
    transition: width 1s;
@@ -39,6 +44,7 @@
    display: flex;
    height: 200px;
    width: 400px;
+   background-color: $bg-blueGray;
 }
 
 .contact-form textarea:focus {
@@ -51,8 +57,8 @@
 
 .form-timer {
    position: absolute;
-   top: 23.5vh;
-   right: 0;
+   top: 45.5vh;
+   right: 87px;
    width: 400px;
    padding-right: $l-size;
    font-family: 'Cabin';
@@ -63,7 +69,7 @@
    font-size: 8rem;
    font-family: 'Roboto';
    font-weight: 100;
-   color: $darkLime;
+   color: $darkGray;
 }
 
 @media screen and (max-width: 500px) {

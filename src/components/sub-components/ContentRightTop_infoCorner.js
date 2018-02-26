@@ -3,7 +3,7 @@ import React from 'react';
 const InfoCorner = () => (
 
    <div className="infocorner">
-      <h3>How we wo-rk</h3>
+      <h4>How I wo-rk</h4>
    </div>
 );
 

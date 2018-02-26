@@ -11,7 +11,6 @@ import InfoWork from './sub-components/ContentRightTop_Info-work';
       return (
          <div className="upper xlLargeTall">
             <Info />
-            <InfoWork /> 
          </div>
 
       );

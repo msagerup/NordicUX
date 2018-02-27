@@ -1,5 +1,5 @@
 .right-side__bottom-left {
-   background-color: $bg-dirtyGreen;
+   background-color: lighten($bg-darkGray, 4%);
    display: flex;
    margin-bottom: 12px;
 }
@@ -9,15 +9,15 @@
 }
 
 .right-side__bottom-left__med-bottom {
-   background-color: darken($bg-darkGray, 5%);
-   height: 39%;
+   background-color: lighten($bg-darkGray, 4%);
+   height: 38%;
 }
 .right-side__buttom-left__large {
-    background-color: darken($bg-darkGray, 10%);
+    background-color: lighten($bg-darkGray, 6%);
 }
 
 .right-side__buttom-left__med-top {
-   background-color: darken($bg-darkGray, 15%);
+   background-color: lighten($bg-darkGray, 8%);
 }
 
 .right-side__buttom-left__large__atSign {

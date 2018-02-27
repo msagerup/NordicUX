@@ -1,15 +1,17 @@
 .menu-bar {
-   position: absolute;
-   right: 0;
-   top: 20%;
-   height: 80%;
-   display: flex;
-   flex-direction: column;
+    position: fixed;
+    right: 700px;
+    top: 30%;
+    height: 80%;
 }
 
 .menu-bar__items {
-   padding-left: 10px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   border: 2px solid $darkGray;
    cursor: pointer;
+   width: 64px;
    margin-bottom: 10px;
    height: 5%;
    background-color: $light-bgcolor;
@@ -18,20 +20,25 @@
 }
 
 .menu-bar__items:hover {
-   height: 25%;
+   height: 10%;
    background-color: $darkLime;
 }
 
 .menu-bar h5 {
+   text-align: center;
    margin: 0px;
-   padding-top: 10px;
    font-family: 'Roboto';
 }
 
 @media screen and (max-width: 500px) {
    .menu-bar {
-      height: 38%;
-   }
+   position: absolute;
+   right: 0;
+   top: 20%;
+   height: 80%;
+   display: flex;
+   flex-direction: column;
+}
 
    .menu-bar__items {
       height: 12%;

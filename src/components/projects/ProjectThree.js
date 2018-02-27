@@ -2,14 +2,15 @@ import react from 'react';
 import ProjectHero from './project-sub-components/ProjectHero';
 import ProjectImages from './project-sub-components/ProjectImages';
 
-class ProjectOne extends React.Component {
+
+class ProjectThree extends React.Component {
    render () {
       return (
          <div className="projectContainer">
                <div className="projectContent-Left">
                   <div className="row">
                      <h2>Tech:</h2>
-                     <ProjectHero projectName="React App"/>
+                     <ProjectHero projectName="Hotell Website"/>
                   </div>
                   <div className="row">
                      <ProjectImages />
@@ -25,4 +26,4 @@ class ProjectOne extends React.Component {
    }
 }
 
-export default ProjectOne;
+export default ProjectThree;

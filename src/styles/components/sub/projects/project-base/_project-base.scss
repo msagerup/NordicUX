@@ -1,0 +1,38 @@
+.projectContainer {
+   width: $base;
+   display: flex;
+}
+
+.projectContent-Left {
+   width: $gld10;
+   background-color: #d0d0d0;
+}
+
+.projectContent-Right {
+   width: $gld9;
+   background-color: #f3f3f3;
+}
+
+.row {
+   width: $base;
+   display: flex;
+   padding: $s-size $l-size $s-size $l-size;
+}
+
+.projectContainer h2 {
+   font-family: 'Cabin';
+   font-size: 6rem;
+   color: $darkGray;
+}
+
+@media screen and (max-width: 500px) {
+   .projectContainer {
+      flex-direction: column;
+   }
+   .projectContent-Left {
+      width: $base;
+   }
+   .projectContent-Right {
+      width: $base;
+   }
+}

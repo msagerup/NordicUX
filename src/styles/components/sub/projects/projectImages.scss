@@ -1,0 +1,22 @@
+.project-images {
+   display: flex;
+   width: $base;
+}
+
+.proj-image {
+   width: $gld10;
+   height: 400px;
+   background-color: #afa9a9;
+}
+
+@media screen and (max-width: 500px) {
+   .project-images {
+      display: flex;
+      flex-direction: column;
+   }
+   .proj-image {
+      width: $base;
+      height: 300px;
+      background-color: #afa9a9;
+}
+}

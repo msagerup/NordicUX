@@ -37,3 +37,9 @@ hr {
    float: left;
    margin-bottom: $m-size
 }
+
+// Row setting for main page
+.m-row {
+   width: $base;
+   display: flex;
+}

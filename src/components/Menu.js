@@ -23,12 +23,12 @@ class Menu extends React.Component {
                 stdTypingDelay = { 25 }
                 cursor = { myCur }
               >
-                  ...<div className="hover"><Link to="/">Home</Link></div>.
-                  ... <div className="hover"><Link to="/project/1">01</Link></div>
-                  . ... <div className="hover"><Link to="/project/2">02</Link></div>
-                  . ... <div className="hover"><Link to="/project/3">03</Link></div>
-                  . ... <div className="hover"><Link to="/project/4">04</Link></div>
-                  ... <div className="hover"><Link to="/project/5">05</Link></div> . ..
+                  ...<Link to="/"><div className="hover">Home</div></Link>.
+                  ... <Link to="/project/1"><div className="hover">01</div></Link>
+                  . ... <Link to="/project/2"><div className="hover">02</div></Link>
+                  . ... <Link to="/project/3"><div className="hover">03</div></Link>
+                  . ... <Link to="/project/4"><div className="hover">04</div></Link>
+                  ... <Link to="/project/5"><div className="hover">05</div></Link> . ..
               </Typist>
             </div>
          </div>   

@@ -1,15 +1,3 @@
 .projectHero {
-   background-color: white;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
-   height: 30vh;
-}
-
-.projectHero h2 {
-   font-family: 'Cabin';
-   margin-top: 25%;
-   font-size: 4rem;
-   color: red;
-
+   padding-left: $l-size;
 }

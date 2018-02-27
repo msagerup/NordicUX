@@ -10,9 +10,21 @@ class Project extends React.Component {
             <div className="infocorner content-holder__menu-tag">
                <h4>Pro-jec  -ts</h4>
             </div>
-
-            <h3>{this.props.project.name}</h3>
-            <p>{this.props.project.desc}</p>
+            <div className="project-content">
+               <h3>My Projects</h3><hr />
+               <div className="m-row">
+                  <p>These are my projects. You will find a selection of a few
+                     that are completed and a few thats is under production</p>
+               </div>
+               <div className="m-row">
+                  <div className="project-content__projects-holder">
+                     <div className="project-content__project">1</div>
+                     <div className="project-content__project">2</div>
+                     <div className="project-content__project">3</div>
+                     <div className="project-content__project">4</div>
+                  </div>
+               </div>
+            </div>
          </div>
       );
    }

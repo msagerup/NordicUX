@@ -48,7 +48,7 @@ class Contact extends React.Component {
 
    render () {
       return (
-         <div className="content-holder large">
+         <div className="content-holder large mobile-content-holder">
             <div className="form-timer">
                <div className="time">
                   {this.state.time.toLocaleTimeString()}

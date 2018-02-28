@@ -43,3 +43,9 @@ hr {
    width: $base;
    display: flex;
 }
+
+@media screen and (max-width: 500px){
+  .mobile-content-holder {
+    height: 100% !important;
+  }
+}

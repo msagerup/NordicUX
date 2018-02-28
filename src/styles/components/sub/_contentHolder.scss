@@ -40,3 +40,13 @@
       
    }
 }
+
+@media screen and (min-width: 501px) and (max-width: 1024px) {
+   .content-holder {
+      padding:  0 $s-size $s-size $s-size;
+      height: 86vh;
+      width: 100vw;
+      overflow: scroll;
+      margin-left: 40px;
+   }
+}

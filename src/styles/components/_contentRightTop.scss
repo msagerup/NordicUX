@@ -19,3 +19,11 @@
    }
 }
 
+@media screen and (min-width: 501px) and (max-width: 1024px) {
+   .upper {
+      padding-top: 0px;
+   }
+   .xlLargeTall {
+      height: 100%;
+   }
+}

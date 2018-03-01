@@ -1,6 +1,7 @@
-import react from 'react';
+import React from 'react';
 import ProjectHero from './project-sub-components/ProjectHero';
 import ProjectImages from './project-sub-components/ProjectImages';
+import ProjectAPI from './project-sub-components/ProjectAPI';
 
 
 class ProjectFour extends React.Component {

@@ -1,6 +1,7 @@
 import react from 'react';
 import ProjectHero from './project-sub-components/ProjectHero';
 import ProjectImages from './project-sub-components/ProjectImages';
+import ProjectAPI from './project-sub-components/ProjectAPI';
 
 class ProjectOne extends React.Component {
    render () {
@@ -18,6 +19,9 @@ class ProjectOne extends React.Component {
                <div className="projectContent-Right">
                   <div className="row">
                      <h2>GitHub Info:</h2>
+                  </div>
+                  <div className="row">
+                     <ProjectAPI />
                   </div>
                </div>
          </div>     

@@ -4,13 +4,12 @@
    flex-direction: column;
    justify-content: center;
    background-color: $bg-blueGray;
-   height: 72vh;
+   height: 100%;
    width: 90%;
    padding: $l-size 0 $l-size 0;
    font-family: 'Roboto';
    color: $whitefont;
-   margin: $m-size $l-size 0 $l-size;
-   box-shadow: 9px 10px 3px rgba(52, 64, 0, 0.33)
+   float: right;
 }
 
 .infobars>h3 {
@@ -32,11 +31,11 @@
    font-family: 'Cabin';
    font-size: 12px;
    letter-spacing: 14px;
-   width: 80px;
+   width: 116px;
    text-align: right;
    word-wrap: break-word;
    line-height: 25px;
-   background-color: #aad400;
+   background-color: #6f8482;
    color: $darkGray;
 }
 

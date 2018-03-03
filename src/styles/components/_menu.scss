@@ -45,8 +45,9 @@
 } 
 
 .hover {
-   width: 0;
+  width: 45px;
   transition: width 1s;
+  padding: 12px 5px 12px 0px;
   transition-timing-function: cubic-bezier(0.71, 0, 0.13, 1.68);
 }
 .hover:hover {

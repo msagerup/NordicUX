@@ -1,0 +1,18 @@
+
+.menu-loader-enter {
+ opacity: 0;
+}
+
+.menu-loader-enter-active {
+   opacity: 1;
+   transition: opacity 1s ease-in-out;
+} 
+
+.menu-loader-leave {
+   opacity: 1;
+}
+
+.menu-loader-leave-active {
+   opacity: 0;
+   transition: opacity 500ms ease-in-out;
+} 

@@ -38,6 +38,14 @@ hr {
    margin-bottom: $m-size
 }
 
+.h3big{
+   margin-bottom: 5px;
+   font-family: 'Cabin';
+   font-size: 2.5rem;
+   color: $bg-white;
+   text-align: center;
+}
+
 // Row setting for main page
 .m-row {
    width: $base;

@@ -4445,6 +4445,10 @@ react-fontawesome@^1.6.1:
   dependencies:
     prop-types "^15.5.6"
 
+react-mailto@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/react-mailto/-/react-mailto-0.4.0.tgz#2229cb60fca3552273f82e4de96c83f2d12c0d5f"
+
 react-modal@^3.1.5:
   version "3.1.5"
   resolved "https://registry.yarnpkg.com/react-modal/-/react-modal-3.1.5.tgz#9cfdb7634b5003148ffb7c8ead13a36f671d744e"

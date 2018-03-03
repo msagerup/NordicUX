@@ -28,7 +28,7 @@ class Menu extends React.Component {
                   . ... <Link to="/project/2"><div className="hover">02</div></Link>
                   . ... <Link to="/project/3"><div className="hover">03</div></Link>
                   . ... <Link to="/project/4"><div className="hover">04</div></Link>
-                  ... <Link to="/project/5"><div className="hover">05</div></Link> . ..
+                  ... <Link to="/contact"><div className="hover">05</div></Link> . ..
               </Typist>
             </div>
          </div>   

@@ -41,6 +41,7 @@ class OrderHandler extends React.Component {
     }
     this.selectItem = this.selectItem.bind(this);
     this.selectSubItem = this.selectSubItem.bind(this);
+    this.sendMail = this.sendMail.bind(this);
   }
   selectItem(item) {
     const availableSubItems = this.orderData[item];
@@ -53,7 +54,16 @@ class OrderHandler extends React.Component {
   selectSubItem(item) {
     this.setState({ selectedSubItem: item });
   }
+
+  // Send email based on selected value
+  sendMail() {
+   console.log(this.state.selectedSubItem)
+   var subject = this.state.selectedSubItem;
+   window.location.href= `mailto:msagerup@online.no?subject=I%20would%20like%20some%20info%20on:%20${subject}&body=Please%20specify%20how%20I%20can%20help%20you%20with:%20${subject}`
+  }
+
   render() {
+    console.log(this.state)
     return (
       <div className="order-handler__field">
         <OrderSelector
@@ -72,6 +82,9 @@ class OrderHandler extends React.Component {
             selectedItem={this.state.selectedItem}
             selectedSubItem={this.state.selectedSubItem}
          />
+         {this.state.selectedSubItem && 
+          <a className="submit" onClick={this.sendMail}><h3 className="h3big">Send E-mail</h3></a> }
+         
       </div>
     );
   }

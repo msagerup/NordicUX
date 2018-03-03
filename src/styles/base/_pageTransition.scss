@@ -5,13 +5,15 @@
    opacity: 1;
    transition: all 1s ease-out;
 }
-$A-duration: 700ms;
+$A-duration: 300ms;
 
 .loader {
    height: 100vh;
    width: 100%;
    position: absolute;
    top: 0;
+   left: 0;
+   z-index: 400;
    display: flex;
    flex-direction: row;
 }
@@ -26,7 +28,7 @@ $A-duration: 700ms;
 }
 .loader__subOne {
    width: 33.33%;
-   background-color: #0E0E0E;
+   background-color: $bg-blueGray;
    animation-name: subOne;
    animation-delay: 1s;
    animation-duration: $A-duration;
@@ -43,7 +45,7 @@ $A-duration: 700ms;
 }
 .loader__subTwo {
    width: 33.33%; 
-   background-color: #0E0E0E;
+   background-color: $bg-blueGray;
    animation-name: subTwo;
    animation-duration: $A-duration;
    animation-delay: 1.022s;
@@ -61,7 +63,7 @@ $A-duration: 700ms;
 .loader__subThree {
    width: 33.33%;
    margin-left: 1px;
-   background-color: #0E0E0E;
+   background-color: $bg-blueGray;
    animation-name: subThree;
    animation-duration: $A-duration;
    animation-delay: 1.05s;

@@ -9,6 +9,7 @@ import Info from './sub-components/Info';
 import Order from './sub-components/Order';
 import About from './sub-components/About';
 
+
 class ContentLeft extends React.Component {
    constructor () {
       super ()
@@ -28,20 +29,13 @@ class ContentLeft extends React.Component {
       console.log(!this.state.activeComponent === 'contact' && <Contact />)
        return (
          <div className="left-side large left"> 
-            <CSSTransitionGroup //Menu Components loads on page with animation
-               transitionName="menu-loader"
-               transitionAppear= {false}
-               transitionEnter= {true}
-               transitionEnterTimeout = {900}
-               transitionLeave= {true}
-               transitionLeaveTimeout = {300}
-            >
+
                {this.state.activeComponent === 'about' && <About />}
                {this.state.activeComponent === 'projects' && <Projects />}  
                {this.state.activeComponent === 'contact' && <Contact />} 
                {this.state.activeComponent === 'info' && <Info />}
                {this.state.activeComponent === 'order' && <Order />} 
-            </CSSTransitionGroup> 
+            
 
          <div className="menu-bar">
             <div className="menu-bar__items" 

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link }from 'react-router-dom';
 
 class ProjectAPI extends React.Component {
    constructor() {
@@ -7,9 +8,8 @@ class ProjectAPI extends React.Component {
          projects: [],
          repos: []
       };
-      this.renderRepo = this.renderRepo.bind(this);
    }
-
+   // Fetches the GitHub API
    componentDidMount () {
       fetch('https://api.github.com/users/msagerup/repos')
       .then(results => {
@@ -20,14 +20,21 @@ class ProjectAPI extends React.Component {
       })
    }
 
-   renderRepo(repo) {
-      console.log(repo[0])
-   }
 
    render () {
+      let repos = this.state.repos;
+      let selected = "Expense-App"
       return (
          <div>
-         {this.state.repos.length && this.renderRepo(this.state.repos)}
+            {repos.map(item => (item.name == selected) ? (
+                  <div>
+                  {item.name}
+                     <a href="www.vg.no">{item.html_url}</a>
+                     
+                     
+                  </div>
+                  ) : null)}
+         
          </div>
       );
    }

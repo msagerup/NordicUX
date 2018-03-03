@@ -15,7 +15,7 @@
 
 .order-handler__field {
    padding: $s-size;
-   background-color: $orange;
+   background-color: #474747;
    color: $whitefont;
    height: 40vh;
    position: relative;
@@ -58,11 +58,11 @@
    display: flex;
    flex-direction: column;
    justify-content: center;
-   border-left: 2px solid yellow;
+   border-left: 2px solid $darkGray;
 }
 
 .order-handler__summery {
-   background-color: red;
+   background-color: $darkGray;
    padding: $s-size 0 $s-size $s-size;
    margin: 0;
 }

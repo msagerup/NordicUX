@@ -4,7 +4,7 @@ import Home from '../components/Home';
 import Menu from '../components/Menu';
 import Golden from '../components/Golden';
 import NotFound from '../components/NotFound';
-import Contact from '../components/sub-components/Contact';
+import Contact from '../components/Contact';
 import ProjectOne from '../components/projects/ProjectOne';
 import ProjectTwo from '../components/projects/ProjectTwo';
 import ProjectThree from '../components/projects/ProjectThree';

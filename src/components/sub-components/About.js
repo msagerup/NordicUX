@@ -8,7 +8,7 @@ class About extends React.Component {
    age() {
       let currentDate = new Date();
       let year = currentDate.getFullYear();
-      const myDoB = 1981;
+      const myDoB = 1980;
       let myAge = year - myDoB;
       return myAge
    }
@@ -23,11 +23,19 @@ class About extends React.Component {
           transitionLeave = {false}
           >
          <div className="content-holder large">
-          <LoaderDown />
+            <LoaderDown />
+            <div className="content-holder__header">
+              <div className="content-holder__header__square">
+                <div className="content-holder__header__title">
+                  <h2><span className="content-holder__header__title__fistletters">Ab</span>out</h2>
+                </div>
+              </div>  
+            </div>
             <div className="infocorner content-holder__menu-tag">
                <h4>Abo-ut me</h4>
             </div>
-            <div className="about-content">
+            <div className="about-content content-margin">
+            <div className="about-content__sectionOne aboutSection">
                <h3>Nice to meet you!</h3><hr/>
                <p><span>Magnus Sagerup</span> is my name, I am {this.age()} years old and  and I am a self tought front-end
                developer. I started learning in November 2016 as I realized that I realy wanted to follow my passion and 
@@ -36,6 +44,8 @@ class About extends React.Component {
                big challange, but it also enables you to keep up with the most up to date technologies. When I frist started I 
                did not know about alot of these, just thinking about how much there was to learn keept me up at night, but well, hell,
                look at me now, this whole page is built with React :)</p>
+            </div>
+            <div className="about-content__sectionOne aboutSection">
                <h3>
                   What I work with
                </h3>
@@ -48,6 +58,7 @@ class About extends React.Component {
                      mobile applications and further down the line I find A.I (Artificial Intelligence) extremely 
                      facinating and I will follow that path.</p>
                      <p>I have come to realize that beeing a developer, learning never ends. And I love it.</p>
+            </div>
             </div>
          </div>
 

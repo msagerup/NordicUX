@@ -12,7 +12,7 @@ class MainLoader extends React.Component {
           this.setState({
              showLoader: false
           });
-       },5500);
+       },3000);
     }
 
    render() {

@@ -1,13 +1,62 @@
 .content-holder__menu-tag {
-   background-color: #5a8e89;
-   color: $whitefont;
+       background-color: #f1f1f1;
+    color: #FCFFF5;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 116px;
+    right: -17px;
+    color: black;
+    margin-right: 0px;
 }
 .content-holder {
    background-color: $light-bgcolor;
    height: 98vh;
-   padding: 12.8rem;
-   width: 61vw;
+   //padding: 12.8rem;
+   width: 100%;
    position: relative;
+}
+
+.content-margin {
+    margin: 0px 12.8rem 0 12.8rem;
+    background-color: #f1f1f1;
+    padding: 2rem;
+    box-shadow: 0 0 2px 3px rgba(55, 55, 55, 0.37);
+    transform: translateY(-30px);
+}
+
+.content-holder__header {
+   height: 300px;
+   width: 100%;
+   background-color: lighten($bg-darkGray, 8%);
+   display: flex;
+   padding-left: 12.8rem;
+   flex-direction: column;
+   justify-content: center;
+   position: relative;
+}
+
+.content-holder__header__square {
+   height: 65%;
+   width: 100%;
+   border-left: 181px #f1f1f1 solid;
+   border-top: 5px white solid;  
+}
+
+.content-holder__header__title {
+   color: white;
+   font-size: 8rem;
+   letter-spacing: 22px;
+   position: absolute;
+   top: 31%;
+   left: 12%;
+}
+
+.content-holder__header__title__fistletters {
+   color: $lightRed;
+}
+
+.content-holder__header__title h2 {
+   margin: 0px;
 }
 
 @media screen and (max-width: 500px) {

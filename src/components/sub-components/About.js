@@ -1,5 +1,6 @@
 import React from 'react';
 import LoaderDown from '../loaders/LoaderDown';
+import ContentHolderHeader from '../sub-components/ContentHolderHeader';
 import CSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
 
 class About extends React.Component {
@@ -24,13 +25,8 @@ class About extends React.Component {
           >
          <div className="content-holder large">
             <LoaderDown />
-            <div className="content-holder__header">
-              <div className="content-holder__header__square">
-                <div className="content-holder__header__title">
-                  <h2><span className="content-holder__header__title__fistletters">Ab</span>out</h2>
-                </div>
-              </div>  
-            </div>
+            <ContentHolderHeader title="About" />
+            
             <div className="infocorner content-holder__menu-tag">
                <h4>Abo-ut me</h4>
             </div>

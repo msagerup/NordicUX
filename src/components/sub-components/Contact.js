@@ -1,5 +1,6 @@
 import React from 'react';
 import LoaderDown from '../loaders/LoaderDown';
+import ContentHolderHeader from '../sub-components/ContentHolderHeader';
 import CSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
 
 class Contact extends React.Component {
@@ -57,7 +58,9 @@ class Contact extends React.Component {
           transitionEnter = {false}
           transitionLeave = {false}
         >
-           <div className="content-holder large mobile-content-holder">
+           <div className="content-holder large">
+              <LoaderDown />
+              <ContentHolderHeader title="Contact"/>
               <div className="form-timer">
                  <div className="time">
                     {this.state.time.toLocaleTimeString()}
@@ -67,28 +70,31 @@ class Contact extends React.Component {
                  </div>
                </div>
               <div className="infocorner content-holder__menu-tag"><h4>Con -tat me</h4></div>
-              <form onSubmit= { this.handleSubmit } className="contact-form">
-                 <h3>Contact me</h3>
-                 <label>
-                    <span className="contact-form__label-name">Name:</span>
-                    <input type="text" value={ this.state.firstname } onChange={ this.handleChange('firstname') } required />
-                 </label>
-                    <label>
-                    <span className="contact-form__label-name">Last Name:</span>
-                    <input type="text" value={ this.state.lastname } onChange={ this.handleChange('lastname') } required />
-                 </label>
-                 <label>
-                   <span className="contact-form__label-name">E-mail:</span>
-                    <input type="email" value={ this.state.email } onChange={ this.handleChange('email') } required />
-                 </label>
-                 <label>
-                    <span className="contact-form__label-name">Message:</span>
-                    <textarea type="text" value={ this.state.message } onChange={ this.handleChange('message') } required />
-                 </label>
-                 <input type="submit" value="Submit" />
-              </form>
-              <LoaderDown />
-           </div>
+              <div className="contact-content content-margin">
+                <form onSubmit= { this.handleSubmit } className="contact-form">
+                   <h3>Contact me</h3>
+                   <label>
+                      <span className="contact-form__label-name">Name:</span>
+                      <input type="text" value={ this.state.firstname } onChange={ this.handleChange('firstname') } required />
+                   </label>
+                      <label>
+                      <span className="contact-form__label-name">Last Name:</span>
+                      <input type="text" value={ this.state.lastname } onChange={ this.handleChange('lastname') } required />
+                   </label>
+                   <label>
+                     <span className="contact-form__label-name">E-mail:</span>
+                      <input type="email" value={ this.state.email } onChange={ this.handleChange('email') } required />
+                   </label>
+                   <label>
+                      <span className="contact-form__label-name">Message:</span>
+                      <textarea type="text" value={ this.state.message } onChange={ this.handleChange('message') } required />
+                   </label>
+                   <input type="submit" value="Submit" />
+                </form>
+             </div>
+                
+            </div>
+
         </CSSTransitionGroup>
       );
    }

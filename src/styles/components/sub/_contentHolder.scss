@@ -1,23 +1,25 @@
 .content-holder__menu-tag {
-       background-color: #f1f1f1;
-    color: #FCFFF5;
-    transform: rotate(-90deg);
-    position: absolute;
-    top: 116px;
-    right: -17px;
-    color: black;
-    margin-right: 0px;
+   background-color: #f1f1f1;
+   color: #FCFFF5;
+   transform: rotate(-90deg);
+   position: absolute;
+   top: 96px;
+   right: 11px;
+   width: 75px;
+   color: black;
+   margin-right: 0px;
+   display: none;
 }
 .content-holder {
    background-color: $light-bgcolor;
-   height: 98vh;
+   height: 100vh;
    //padding: 12.8rem;
    width: 100%;
    position: relative;
 }
 
 .content-margin {
-    margin: 0px 12.8rem 0 12.8rem;
+    margin: 0px 4.8rem 0 4.8rem;
     background-color: #f1f1f1;
     padding: 2rem;
     box-shadow: 0 0 2px 3px rgba(55, 55, 55, 0.37);
@@ -29,30 +31,30 @@
    width: 100%;
    background-color: lighten($bg-darkGray, 8%);
    display: flex;
-   padding-left: 12.8rem;
    flex-direction: column;
    justify-content: center;
    position: relative;
 }
 
-.content-holder__header__square {
-   height: 65%;
-   width: 100%;
-   border-left: 181px #f1f1f1 solid;
-   border-top: 5px white solid;  
-}
+
 
 .content-holder__header__title {
    color: white;
-   font-size: 8rem;
-   letter-spacing: 22px;
-   position: absolute;
+   text-align: center;
+   font-size: 25rem;
+   letter-spacing: 16px;
+   transform: translateY(100px);
+   transition: transform 1s;
    top: 31%;
-   left: 12%;
+   left: 5%;
+}
+
+.content-holder__header__title:hover {
+   transform: translateY(50px);
 }
 
 .content-holder__header__title__fistletters {
-   color: $lightRed;
+   color: #f1f1f1;
 }
 
 .content-holder__header__title h2 {

@@ -1,5 +1,6 @@
 import React from 'react';
 import LoaderDown from '../loaders/LoaderDown';
+import ContentHolderHeader from '../sub-components/ContentHolderHeader';
 import CSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
 
 class Project extends React.Component {
@@ -13,11 +14,13 @@ class Project extends React.Component {
           transitionLeave = {false}
           >
             <div className="content-holder large">
+               <LoaderDown />
+               <ContentHolderHeader title="Projects"/>
                <div className="infocorner content-holder__menu-tag">
                   <h4>Pro-jec  -ts</h4>
                </div>
-               <div className="project-content">
-               <LoaderDown />
+               <div className="project-content content-margin">
+               
                   <h3>My Projects</h3><hr />
                   <div className="m-row">
                      <p>These are my projects. You will find a selection of a few

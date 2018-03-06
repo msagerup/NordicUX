@@ -4,6 +4,9 @@
     top: 30%;
     height: 80%;
 }
+.menuBarToggle {
+  display: none;
+}
 
 .menu-bar__items {
    display: flex;
@@ -30,18 +33,35 @@
    font-family: 'Roboto';
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 500px) {
    .menu-bar {
    position: absolute;
    right: 0;
    top: 20%;
    height: 80%;
+   width: 40px;
+   transition: all 1s ease;
    display: flex;
    flex-direction: column;
   }
+  .menuBarToggle {
+    display: inline;
+    color: white;
+    float: right;
+    font-size: 2rem;
+    padding-right: $s-size;
+    padding-top: $s-size;
+  } 
+
+  .menuBarToggle:hover .menu-bar {
+   width: 100vw;
+   background-color: white;
+  } 
 
    .menu-bar__items {
       height: 12%;
+      border: 0;
+      margin-bottom: 0px;
    }
 }
 

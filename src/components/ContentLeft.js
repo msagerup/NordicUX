@@ -36,30 +36,33 @@ class ContentLeft extends React.Component {
                {this.state.activeComponent === 'info' && <Info />}
                {this.state.activeComponent === 'order' && <Order />} 
             
-
-         <div className="menu-bar">
-            <div className="menu-bar__items" 
-              onClick={this.toggle.bind(this, 'about')}
-            >
-               <h5>About</h5>
-            </div>
-            <div className="menu-bar__items" 
-              onClick={this.toggle.bind(this, 'projects')}
-            >
-               <h5>Projects</h5>
-            </div>
-            <div className="menu-bar__items"
-               onClick={this.toggle.bind(this, 'contact')}
-            >
-               <h5>Contact</h5>
-            </div>
-            <div className="menu-bar__items"
-               onClick={this.toggle.bind(this, 'order')}
-               
-            >
-               <h5>Order</h5>
-            </div>
-         </div>
+         <div className="menuContent">
+           <div className="menuBarToggle">X     
+             <div className="menu-bar">
+                <div className="menu-bar__items" 
+                  onClick={this.toggle.bind(this, 'about')}
+                >
+                   <h5>About</h5>
+                </div>
+                <div className="menu-bar__items" 
+                  onClick={this.toggle.bind(this, 'projects')}
+                >
+                   <h5>Projects</h5>
+                </div>
+                <div className="menu-bar__items"
+                   onClick={this.toggle.bind(this, 'contact')}
+                >
+                   <h5>Contact</h5>
+                </div>
+                <div className="menu-bar__items"
+                   onClick={this.toggle.bind(this, 'order')}
+                   
+                >
+                   <h5>Order</h5>
+                </div>
+             </div>
+           </div>
+          </div>      
             <LogoText />
          </div>
       );

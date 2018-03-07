@@ -39,11 +39,13 @@ hr {
 }
 
 .h3big{
-   margin-bottom: 5px;
-   font-family: 'Cabin';
-   font-size: 2.5rem;
-   color: $bg-white;
-   text-align: center;
+  font-family: 'Cabin';
+  font-size: 2rem !important;
+  color:$lightRed !important;
+  letter-spacing: 4px !important;
+  margin-top: $l-size !important;
+  margin-bottom: 10px !important;
+  text-align: center !important;
 }
 
 // Row setting for main page

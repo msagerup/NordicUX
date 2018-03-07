@@ -2,6 +2,7 @@
    display: flex;
 }
 
+
 .order-content h3 {
    margin-bottom: 5px;
    font-family: 'Cabin';
@@ -68,6 +69,9 @@
 }
 
 @media screen and (max-width: 500px) {
+   .order-content {
+      height: 100%;
+   }
    .order-content h3 {
       font-family: 'Cabin';
       font-size: 3.5rem;
@@ -84,7 +88,6 @@
    }
    .subSelected:nth-child(2) {
       padding-left: 30px;
-
    }
    .subSelected ul {
       list-style: none;
@@ -95,6 +98,7 @@
       height: 30vh;
    }
    .order-handler__summery {
+      margin-top: 7rem;
       width: 74vw;
       font-size: 13px;
    

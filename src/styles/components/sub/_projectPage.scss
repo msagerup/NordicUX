@@ -19,3 +19,17 @@
    margin-top: 31px;
    width: 358px;
 }
+
+@media screen and (max-width: 500px) {
+   .project-content__projects-holder {
+      width: 100%;
+      overflow: hidden;
+   }
+   .project-content__project {
+      box-shadow: 0 0 2px 3px rgba(55, 55, 55, 0.37);
+   }
+}
+
+@media screen and (min-width: 501px) and (max-width: 1024px) {
+
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import LoaderDown from '../loaders/LoaderDown';
 import ContentHolderHeader from '../sub-components/ContentHolderHeader';
 import CSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
@@ -28,10 +29,10 @@ class Project extends React.Component {
                   </div>
                   <div className="m-row">
                      <div className="project-content__projects-holder">
-                        <div className="project-content__project"><img src="https://picsum.photos/358/220/?image1067" alt=""/></div>
-                        <div className="project-content__project"><img src="https://picsum.photos/358/220/?image1063" alt="" /></div>
-                        <div className="project-content__project"><img src="https://picsum.photos/358/220/?image1059" alt=""/></div>
-                        <div className="project-content__project"><img src="https://picsum.photos/358/220/?image1060" alt="" /></div>
+                        <Link to="/project/1"><div className="project-content__project"><img src="https://picsum.photos/358/220/?image1067" alt=""/></div></Link>
+                        <Link to="/project/2"><div className="project-content__project"><img src="https://picsum.photos/358/220/?image1063" alt="" /></div></Link>
+                        <Link to="/project/3"><div className="project-content__project"><img src="https://picsum.photos/358/220/?image1059" alt=""/></div></Link>
+                        <Link to="/project/4"><div className="project-content__project"><img src="https://picsum.photos/358/220/?image1060" alt="" /></div></Link>
                      </div>
                   </div>
                </div>

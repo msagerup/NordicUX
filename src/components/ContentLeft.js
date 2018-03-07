@@ -11,22 +11,31 @@ import About from './sub-components/About';
 
 
 class ContentLeft extends React.Component {
-   constructor () {
-      super ()
-      this.state = {    
+   constructor (props) {
+      super (props)
+      this.state = {
+        MenuVisible: false    
       }
+      this.toggleMenu = this.toggleMenu.bind(this)
    }
 
  // This passes in the component name and checks if its equal to the state
  toggle(componentName) {
    console.log('this is the state that is passed:', this.state)
   this.setState({
-       activeComponent: this.state.activeComponent === componentName ? null : componentName
+       activeComponent: this.state.activeComponent === componentName ? null : componentName,
+       MenuVisible: !this.state.MenuVisible
   });
 }
+  
+  toggleMenu() {
+    console.log(this.state)
+    this.setState({
+      MenuVisible: !this.state.MenuVisible
+    })
+  }
 
    render () {
-      console.log(!this.state.activeComponent === 'contact' && <Contact />)
        return (
          <div className="left-side large left"> 
 
@@ -36,8 +45,8 @@ class ContentLeft extends React.Component {
                {this.state.activeComponent === 'info' && <Info />}
                {this.state.activeComponent === 'order' && <Order />} 
             
-         <div className="menuContent">
-           <div className="menuBarToggle">X     
+           <div className="menuBarToggle"><button onClick={ this.toggleMenu }><h6>=</h6></button></div>     
+             {this.state.MenuVisible && (
              <div className="menu-bar">
                 <div className="menu-bar__items" 
                   onClick={this.toggle.bind(this, 'about')}
@@ -60,9 +69,8 @@ class ContentLeft extends React.Component {
                 >
                    <h5>Order</h5>
                 </div>
-             </div>
-           </div>
-          </div>      
+             </div>    
+                )}
             <LogoText />
          </div>
       );

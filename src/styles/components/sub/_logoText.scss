@@ -1,24 +1,25 @@
 .logo-text {
-   width: 15.19%;
-   height: 9%;
-   position: absolute;
-   right: 0;
-   bottom: 0;
-   font-family: 'Cabin';
-   font-size: 15px;
-   color: $light-bgcolor;
-   text-transform: uppercase;
-   display: flex;
-   flex-wrap: wrap;  
+  width: 32.19%;
+  height: 9%;
+  position: absolute;
+  right: 347px;
+  bottom: 458px;
+  font-family: 'Cabin';
+  font-size: 6rem;
+  color: #F1F1F1;
+  text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 1;
 }
 
 .logo-text >span {
-   padding-left: 30px;
-   padding-bottom: 5px;
+  padding-left: 30px;
+  padding-bottom: 5px;
 }
 
 .logo-text >span:nth-child(3) {
-   display: inline-block;
+  display: inline-block;
   transform: scaleX(-1); 
   padding-right: 30px;
   filter: FlipH; 
@@ -29,15 +30,15 @@
 
 @media screen and (max-width: 500px) {
      .logo-text {
-      flex-wrap: nowrap;
-      font-size: 8px;
-      right: 241px;
-      bottom: -35px
+        flex-wrap: nowrap;
+        font-size: 8px;
+        right: 195px;
+        bottom: 203px;
      }
      .logo-text >span {
-      padding-left: 20px;
+        padding-left: 20px;
      }
      .logo-text >span:nth-child(3) {
-      padding-right: 20px;
+        padding-right: 20px;
      }
 }

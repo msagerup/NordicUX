@@ -1,3 +1,8 @@
+body {
+   background-color: #2d2d2d;
+}
+
+
 .projectContainer {
    width: $base;
    display: flex;
@@ -5,12 +10,12 @@
 
 .projectContent-Left {
    width: $gld10;
-   background-color: #d0d0d0;
+   background-color: #232323;
 }
 
 .projectContent-Right {
    width: $gld9;
-   background-color: #f3f3f3;
+   background-color: darken(#2d2d2d, 5%)
 }
 
 .row {

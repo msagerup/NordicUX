@@ -1,12 +1,16 @@
-.menu-bar {
+.menu-bar {    
     position: fixed;
-    right: 34.8%;
-    top: 30%;
-    height: 80%;
+    left: 65.8%;
+    top: 0;
+    background-color: white;
+    width: 35%;
+    z-index: 500;
+    height: 79%;
+
 }
 .menuBarToggle {
   position: fixed;
-  right: 0;
+  left: 63%;
   top: 0;
   z-index: 500;
 }
@@ -28,16 +32,15 @@
    flex-direction: column;
    border: 2px solid $darkGray;
    cursor: pointer;
-   width: 42px;
    margin-bottom: 10px;
-   height: 5%;
+   height: 20%;
    background-color: $light-bgcolor;
    transition: height 1s;
    transition-timing-function: cubic-bezier(0.71, 0, 0.13, 1.68);
 }
 
 .menu-bar__items:hover {
-   height: 10%;
+   height: 22%;
    background-color: $darkLime;
 }
 
@@ -51,7 +54,7 @@
    .menu-bar {
       background-color: $bg-white;
       position: absolute;
-      right: 0;
+      left:0;
       top: 0;
       height: 100%;
       width: 100vw;
@@ -68,6 +71,12 @@
       border: 0;
       margin-bottom: 0px;
    }
+   .menuBarToggle {
+      position: fixed;
+      left: 90%;
+      top: 0;
+      z-index: 500;
+    }
 }
 
 @media screen and (min-width: 501px) and (max-width: 1024px) {

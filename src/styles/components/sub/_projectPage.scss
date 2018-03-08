@@ -1,3 +1,9 @@
+.project-content {
+   height: 73%;
+   overflow: scroll;
+
+}
+
 .project-content h3 {
    margin-bottom: 5px;
    font-family: 'Cabin';
@@ -9,15 +15,15 @@
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-   width: 79%;
+   width: 100%;
    justify-content: space-between;
 }
 
 .project-content__project {
    background-color:#474747;
-   height: 220px;
+   height: 318px;
    margin-top: 31px;
-   width: 358px;
+   width: 509px;
 }
 
 @media screen and (max-width: 500px) {
@@ -27,6 +33,9 @@
    }
    .project-content__project {
       box-shadow: 0 0 2px 3px rgba(55, 55, 55, 0.37);
+      height: 220px;
+      margin-top: 31px;
+      width: 358px;
    }
 }
 

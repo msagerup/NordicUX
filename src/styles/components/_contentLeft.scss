@@ -3,13 +3,22 @@
    position: relative;
    justify-content: center;
    align-items: center;
-   //overflow: hidden;
+   overflow: hidden;
+}
+
+.left-BackgroundIMG img {
+   transform: translateX(-30px);
+   height: 48vw;
 }
 
 @media screen and (max-width: 500px) {
    .left-side {
       height: 110%;
       width: 100%;
+   }
+   .left-BackgroundIMG img {
+      height: 100%;
+      transform: translateX(0);
    }     
 }
 

@@ -8,6 +8,7 @@ import Contact from './sub-components/Contact';
 import Info from './sub-components/Info';
 import Order from './sub-components/Order';
 import About from './sub-components/About';
+import BackgroundIMG from './sub-components/BackgroundIMG';
 
 
 class ContentLeft extends React.Component {
@@ -72,6 +73,7 @@ class ContentLeft extends React.Component {
              </div>    
                 )}
             <LogoText />
+            <BackgroundIMG />
          </div>
       );
    }

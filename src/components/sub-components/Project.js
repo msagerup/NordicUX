@@ -29,10 +29,10 @@ class Project extends React.Component {
                   </div>
                   <div className="m-row">
                      <div className="project-content__projects-holder">
-                        <Link to="/project/1"><div className="project-content__project"><img src="https://picsum.photos/358/220/?image1067" alt=""/></div></Link>
-                        <Link to="/project/2"><div className="project-content__project"><img src="https://picsum.photos/358/220/?image1063" alt="" /></div></Link>
-                        <Link to="/project/3"><div className="project-content__project"><img src="https://picsum.photos/358/220/?image1059" alt=""/></div></Link>
-                        <Link to="/project/4"><div className="project-content__project"><img src="https://picsum.photos/358/220/?image1060" alt="" /></div></Link>
+                        <Link to="/project/1"><div className="project-content__project"><img src="https://picsum.photos/509/318/?image1067" alt=""/></div></Link>
+                        <Link to="/project/2"><div className="project-content__project"><img src="https://picsum.photos/509/318/?image1063" alt="" /></div></Link>
+                        <Link to="/project/3"><div className="project-content__project"><img src="https://picsum.photos/509/318/?image1059" alt=""/></div></Link>
+                        <Link to="/project/4"><div className="project-content__project"><img src="https://picsum.photos/509/318/?image1060" alt="" /></div></Link>
                      </div>
                   </div>
                </div>

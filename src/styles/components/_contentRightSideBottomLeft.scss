@@ -20,7 +20,7 @@
    background-color: lighten($bg-darkGray, 8%);
 }
 
-.right-side__buttom-left__large__atSign {
+.right-side__buttom-left__large__atSign a {
    color: #2d2d2d;
    font-family: 'Roboto';
    font-weight: 100;
@@ -28,8 +28,12 @@
    position: relative;
    bottom: -38px;
    left: 40px;
+   transition: all 500ms;
+   text-decoration: none;
 }
-
+.right-side__buttom-left__large__atSign a:hover {
+   color: #00BCD4;
+}
 
 @media screen and (max-width: 500px) {
    .right-side__bottom-left {

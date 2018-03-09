@@ -5,7 +5,7 @@ class RightSideBottomLeftBig extends React.Component {
       return (
          <div className="right-side__buttom-left__large large">
             <div className="right-side__buttom-left__large__atSign">
-               <span>@</span>
+               <span><a href="mailto:msagerup@online.no">@</a></span>
             </div>
          </div>     
       );

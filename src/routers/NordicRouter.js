@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch, Link, NavLink } from 'react-router-dom';
-import Home from '../components/Home';
 import Menu from '../components/Menu';
 import Golden from '../components/Golden';
 import NotFound from '../components/NotFound';

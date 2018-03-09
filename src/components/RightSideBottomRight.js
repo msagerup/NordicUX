@@ -27,10 +27,9 @@ class RightSideBottomRight extends React.Component {
                <h4 className="h4_black">Please feel free to contact me on:</h4>
             </div>
             <div className="right-side__bottom-right__contact contactRow paleRed">
-               <h4>LinkedIn</h4>
-               <h4>GitHub</h4>
-               <h4>Email</h4>
-               <h4>Facebook</h4>
+               <h4><a href="https://es.linkedin.com/in/sagerup">LinkedIn</a></h4>
+               <h4><a href="http://www.github.com/msagerup">GitHub</a></h4>
+               <h4><a href="http://www.facebook.com/sagerup">Facebook</a></h4>
             </div>
          </div>
       )

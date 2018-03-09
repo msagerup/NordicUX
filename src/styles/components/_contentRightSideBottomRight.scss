@@ -29,6 +29,16 @@
    justify-content: space-around;
 }
 
+.contactRow a{
+   color: $lightRed;
+   text-decoration: none;
+   transition: all 500ms;
+}
+
+.contactRow a:hover{
+   color:white;
+}
+
 
 @media screen and (max-width: 500px) {
    .right-side__bottom-right {

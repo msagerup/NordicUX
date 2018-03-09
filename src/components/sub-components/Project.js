@@ -29,10 +29,36 @@ class Project extends React.Component {
                   </div>
                   <div className="m-row">
                      <div className="project-content__projects-holder">
-                        <Link to="/project/1"><div className="project-content__project"><img src="https://picsum.photos/509/318/?image1067" alt=""/></div></Link>
-                        <Link to="/project/2"><div className="project-content__project"><img src="https://picsum.photos/509/318/?image1063" alt="" /></div></Link>
-                        <Link to="/project/3"><div className="project-content__project"><img src="https://picsum.photos/509/318/?image1059" alt=""/></div></Link>
-                        <Link to="/project/4"><div className="project-content__project"><img src="https://picsum.photos/509/318/?image1060" alt="" /></div></Link>
+                        <Link to="/project/1">
+                          <div className="project-content__project">
+                            <img src="https://picsum.photos/509/318/?image1067" alt=""/>
+                            <div className="project-content__project__progress">Project Ongoing</div>
+                            <div className="project-content__project__tech">React</div>
+                            <div className="project-content__project__info">Info</div>
+                          </div>
+                        </Link>
+                        <Link to="/project/2">
+                          <div className="project-content__project">
+                            <img src="https://picsum.photos/509/318/?image1063" alt="" />
+                            <div className="project-content__project__progress">Project Ongoing</div>
+                            <div className="project-content__project__tech">Node / Express</div>
+                            <div className="project-content__project__info">Info</div>
+                          </div>
+                        </Link>
+                        <Link to="/project/3">
+                          <div className="project-content__project">
+                            <img src="https://picsum.photos/509/318/?image1059" alt=""/>
+                            <div className="project-content__project__progress">Project Ongoing</div>
+                            <div className="project-content__project__info">Info</div>
+                          </div>
+                        </Link>
+                        <Link to="/project/4">
+                          <div className="project-content__project">
+                            <img src="https://picsum.photos/509/318/?image1060" alt="" />
+                            <div className="project-content__project__progress">Project Ongoing</div>
+                            <div className="project-content__project__info">Info</div>
+                          </div>
+                        </Link>
                      </div>
                   </div>
                </div>

@@ -2,8 +2,8 @@ import React from 'react';
 import { Link }from 'react-router-dom';
 
 class ProjectAPI extends React.Component {
-   constructor() {
-      super()
+   constructor(props) {
+      super(props)
       this.state = {
          projects: [],
          repos: []
@@ -23,15 +23,12 @@ class ProjectAPI extends React.Component {
 
    render () {
       let repos = this.state.repos;
-      let selected = "Expense-App"
       return (
          <div>
-            {repos.map(item => (item.name == selected) ? (
+            {repos.map(item => (item.name == this.props.gitcall) ? (
                   <div>
                   {item.name}
-                     <a href="www.vg.no">{item.html_url}</a>
-                     
-                     
+                     <a href={item.html_url}>{item.html_url}</a>
                   </div>
                   ) : null)}
          

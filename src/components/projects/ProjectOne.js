@@ -21,7 +21,7 @@ class ProjectOne extends React.Component {
                      <h2>GitHub Info:</h2>
                   </div>
                   <div className="row">
-                     <ProjectAPI />
+                     <ProjectAPI gitcall="Expense-App"/>
                   </div>
                </div>
          </div>     

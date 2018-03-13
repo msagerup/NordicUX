@@ -86,8 +86,14 @@
    .project-content {
       overflow: visible;
    }
+   .project-content {
+      height: initial;
+   }
    .project-content__projects-holder img{
       width: 100%;
       height: auto;
+   }
+   .project-content__project {
+      width: 679px;
    }
 }

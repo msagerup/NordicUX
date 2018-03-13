@@ -110,8 +110,8 @@
 @media screen and (min-width: 501px) and (max-width: 1024px) {
    .form-timer {
       position: absolute;
-         top: 36.5vh;
-         right: 11vw;
+         top: 75.5vh;
+         right: -2vw;
          width: 43vw;
          padding-right: $l-size;
          font-family: 'Cabin';
@@ -119,5 +119,6 @@
    }
    .time {
       font-size: 5rem;
+      color: $lightRed;
    }
 }

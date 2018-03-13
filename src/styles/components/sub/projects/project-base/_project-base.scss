@@ -29,6 +29,10 @@ body {
    color: $lightRed;
 }
 
+.projectContainer ul {
+   color: white;
+}
+
 @media screen and (max-width: 500px) {
    .projectContainer {
       flex-direction: column;

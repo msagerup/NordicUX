@@ -26,10 +26,13 @@ class ProjectAPI extends React.Component {
       return (
          <div>
             {repos.map(item => (item.name == this.props.gitcall) ? (
-                  <div>
-                  {item.name}
-                     <a href={item.html_url}>{item.html_url}</a>
-                  </div>
+                  <ul>
+                     <li><a href={item.html_url}>{item.html_url}</a></li>
+                     <li>Short description: {item.description}</li>
+                     <li>created at: {item.created_at}</li>
+                     <li>Pushed at: {item.pushed_at}</li>
+                     <li>Updated at: {item.updated_at}</li>
+                  </ul>
                   ) : null)}
          
          </div>

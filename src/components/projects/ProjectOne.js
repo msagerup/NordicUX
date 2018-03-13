@@ -10,7 +10,7 @@ class ProjectOne extends React.Component {
                <div className="projectContent-Left">
                   <div className="row">
                      <h2>Tech:</h2>
-                     <ProjectHero projectName="React App"/>
+                     <ProjectHero projectName="Restaurant App"/>
                   </div>
                   <div className="row">
                      <ProjectImages />
@@ -21,7 +21,7 @@ class ProjectOne extends React.Component {
                      <h2>GitHub Info:</h2>
                   </div>
                   <div className="row">
-                     <ProjectAPI gitcall="Expense-App"/>
+                     <ProjectAPI gitcall="React-Restaurant-App"/>
                   </div>
                </div>
          </div>     

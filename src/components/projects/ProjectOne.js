@@ -2,6 +2,7 @@ import react from 'react';
 import ProjectHero from './project-sub-components/ProjectHero';
 import ProjectImages from './project-sub-components/ProjectImages';
 import ProjectAPI from './project-sub-components/ProjectAPI';
+import ProjectNav from './project-sub-components/ProjectNav';
 
 class ProjectOne extends React.Component {
    render () {
@@ -22,6 +23,9 @@ class ProjectOne extends React.Component {
                   </div>
                   <div className="row">
                      <ProjectAPI gitcall="React-Restaurant-App"/>
+                  </div>
+                  <div className="row">
+                     <ProjectNav />
                   </div>
                </div>
          </div>     

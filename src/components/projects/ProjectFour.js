@@ -2,6 +2,7 @@ import React from 'react';
 import ProjectHero from './project-sub-components/ProjectHero';
 import ProjectImages from './project-sub-components/ProjectImages';
 import ProjectAPI from './project-sub-components/ProjectAPI';
+import ProjectNav from './project-sub-components/ProjectNav';
 
 
 class ProjectFour extends React.Component {
@@ -20,6 +21,9 @@ class ProjectFour extends React.Component {
                <div className="projectContent-Right">
                   <div className="row">
                      <h2>GitHub Info:</h2>
+                  </div>
+                  <div className="row">
+                     <ProjectNav />
                   </div>
                </div>
          </div>     

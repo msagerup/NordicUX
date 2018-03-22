@@ -14,7 +14,7 @@ class ProjectOne extends React.Component {
                      <ProjectHero projectName="Restaurant App"/>
                   </div>
                   <div className="row">
-                     <ProjectImages />
+                     <ProjectImages url="https://github.com/msagerup/React-Restaurant-App" imgUrl="../img/food.jpg"/>
                   </div>
                </div>
                <div className="projectContent-Right">

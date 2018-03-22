@@ -8,13 +8,13 @@ class ProjectTwo extends React.Component {
    render () {
       return (
          <div className="projectContainer">
-               <div className="Business website">
+               <div className="projectContent-Left">
                   <div className="row">
                      <h2>Tech:</h2>
-                     <ProjectHero projectName="Resturant Website"/>
+                     <ProjectHero projectName="Conference Website"/>
                   </div>
                   <div className="row">
-                     <ProjectImages />
+                     <ProjectImages url="http://www.sagerup.com/messe" imgUrl="../img/city.jpg"/>
                   </div>
                </div>
                <div className="projectContent-Right">

@@ -31,16 +31,15 @@ class Project extends React.Component {
                      <div className="project-content__projects-holder">
                         <Link to="/project/1">
                           <div className="project-content__project">
-                            <img src="https://picsum.photos/509/318/?image1067" alt=""/>
-                            <div className="project-content__project__progress">Project Ongoing</div>
+                            <img src="../img/food.jpg" alt=""/>
+                            <div className="project-content__project__progress">On GitHub</div>
                             <div className="project-content__project__tech">React</div>
                             <div className="project-content__project__info">Restaurant webpage: a fish restaurant where you can order fish online</div>
                           </div>
                         </Link>
                         <Link to="/project/2">
                           <div className="project-content__project">
-                            <img src="https://picsum.photos/509/318/?image1063" alt="" />
-                            <div className="project-content__project__progress">Project Ongoing</div>
+                            <img src="../img/city.jpg" alt="" />
                             <div className="project-content__project__tech">HTML5 / CSS3</div>
                             <div className="project-content__project__info">Business website: Website that focuses on providing conferenses</div>
                           </div>
@@ -48,15 +47,16 @@ class Project extends React.Component {
                         <Link to="/project/3">
                           <div className="project-content__project">
                             <img src="https://picsum.photos/509/318/?image1059" alt=""/>
-                            <div className="project-content__project__progress">Project Ongoing</div>
-                            <div className="project-content__project__info">Social blog website</div>
+                            <div className="project-content__project__tech">FlexBox</div>
+                            <div className="project-content__project__info">Travel Website</div>
                           </div>
                         </Link>
                         <Link to="/project/4">
                           <div className="project-content__project">
                             <img src="https://picsum.photos/509/318/?image1060" alt="" />
                             <div className="project-content__project__progress">Project Ongoing</div>
-                            <div className="project-content__project__info">Travel Webpage, a page where users can book mountain travels</div>
+                            <div className="project-content__project__tech">Node / Express / mongoDB</div>
+                            <div className="project-content__project__info">Real Estate Portal</div>
                           </div>
                         </Link>
                      </div>

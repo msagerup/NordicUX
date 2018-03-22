@@ -7,8 +7,8 @@ const ProjectNav = (props)=> (
          <li><Link to="/">Home</Link></li>
          <li><Link to="/project/1">Resturant App</Link></li>
          <li><Link to="/project/2">Conference website</Link></li>
-         <li><Link to="/project/3">Blog App</Link></li>
-         <li><Link to="/project/4">Travel App</Link></li>
+         <li><Link to="/project/3">Travel Website</Link></li>
+         <li><Link to="/project/4">Real Estate Portal</Link></li>
       </ul>
   </div>
 );

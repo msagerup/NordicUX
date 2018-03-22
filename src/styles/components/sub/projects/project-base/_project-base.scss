@@ -17,6 +17,23 @@ body {
    background-color: darken(#2d2d2d, 5%)
 }
 
+.projectContent-Right ul {
+   list-style: none;
+   padding: 0;
+}
+
+.projectContent-Right li {
+   padding: 5px;
+}
+
+.projectContent-Right a:link {
+   color: $lightRed;
+}
+
+.projectContent-Right a:visited {
+   color: $lightRed;
+}
+
 .row {
    width: $base;
    display: flex;
@@ -31,6 +48,14 @@ body {
 
 .projectContainer ul {
    color: white;
+}
+
+.projectNav li:nth-child(1) {
+   font-size: 3rem;
+   padding-bottom: 5px;
+}
+
+.projectNav {
 }
 
 @media screen and (max-width: 500px) {

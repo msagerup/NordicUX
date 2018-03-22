@@ -24,7 +24,7 @@ class MainLoader extends React.Component {
                      <div className="rev2"></div>
                      <div className="rev3"></div>
                      <div className="rev4"></div>
-                     <div className="rev5"><h2>Nordic UX</h2></div>
+                     <div className="rev5"><h2>Sagerup.com</h2></div>
                   </div>
                ): null}
          </div>
